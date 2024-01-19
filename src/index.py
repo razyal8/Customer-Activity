@@ -11,11 +11,11 @@ from data_analysis import data_analysis
 
 def main():
     session = create_keyspace()
-    # create_table(session)
-    # ingest_all_data(session)
+    create_table(session)
+    ingest_all_data(session)
     # insert_data(session) SHOULD DELETE
     # retrieve_data(session) SHOULD DELETE
-    # top_performing_users(session)
+    top_performing_users(session)
     data_analysis(session)
 
 

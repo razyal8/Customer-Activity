@@ -6,12 +6,14 @@ from create_table import create_table
 from insert_data import insert_data
 from retrieve_data import retrieve_data
 from queries import top_performing_users
+from ingest_data import ingest_all_data
 
 def main():
     session = create_keyspace()
-    create_table(session)
-    insert_data(session)
-    retrieve_data(session)
+    #create_table(session)
+    #ingest_all_data(session)
+    # insert_data(session)
+    # retrieve_data(session)
     top_performing_users(session)
 
 

@@ -9,15 +9,16 @@ session = cluster.connect()
 
 # Create keyspace
 keyspace_query = """
-CREATE KEYSPACE IF NOT EXISTS "Customer_Activity_test5" 
+CREATE KEYSPACE IF NOT EXISTS "Customer_Activity_test" 
 WITH REPLICATION = {'class': 'SimpleStrategy', 'replication_factor': 1}
 """
 session.execute(keyspace_query)
 
 # Use keyspace
-session.set_keyspace("Customer_Activity_test5")
+session.set_keyspace("Customer_Activity_test")
 
-
+drop_query = f'DROP TABLE IF EXISTS Customer_Activity_test.user;'
+session.execute(drop_query)
 
 # Create user table
 user_table_query = """
@@ -165,27 +166,17 @@ def ingest_data(table_name, data_clean_transform_function, csv_file_path):
         csv_reader = csv.reader(file)
         header = next(csv_reader)  # Skip header
         for row in csv_reader:
+            columns = ', '.join(header)
             data = data_clean_transform_function(row)
-            
-            # Extract column names from the output of the function
-            print(data_clean_transform_function)
-            columns = ', '.join(map(str, data_clean_transform_function.__annotations__))
-
-            # Use placeholders without square brackets
-            placeholders = ', '.join(['%s'] * len(data))
-            insert_query = f"INSERT INTO {table_name} ({columns}) VALUES ({placeholders})"
-            print(f"Insert Query: {insert_query}")
-            print(f"Data Values: {data}")
+            insert_query = f"INSERT INTO {table_name} ({columns}) VALUES ({', '.join(['%s'] * len(data))})"
             session.execute(insert_query, data)
 
-
 # Ingest data from CSV files
-print("\nData in user table:")
+print("\nData in table:")
 ingest_data('user5', clean_transform_user_data, 'user.csv')
 select_data_query = "SELECT * FROM user5;"
 result = session.execute(select_data_query)
 
-print("\nData in user_activitty table:")
 ingest_data('user_activity3', clean_transform_lesson_data, 'user_activity.csv')
 select_data_query_user_activitty = "SELECT * FROM user_activity3;"
 result = session.execute(select_data_query_user_activitty)
@@ -207,10 +198,12 @@ ingest_data('discussion_comments3', clean_transform_discussion_comments_data, 'd
 select_data_query_discussions_comments = "SELECT * FROM discussion_comments3;"
 result = session.execute(select_data_query_discussions_comments)
 
-ingest_data('user_lessons',clean_transform_user_lessons_data,'user_activity.csv')
-select_data_query_user_lessons = "SELECT * FROM user_lessons;"
-result = session.execute(select_data_query_user_lessons)
-print(result[0])
+
+print('\nfinished')
+# ingest_data('user_lessons',clean_transform_user_lessons_data,'user_activity.csv')
+# select_data_query_user_lessons = "SELECT * FROM user_lessons;"
+# result = session.execute(select_data_query_user_lessons)
+# print(result[0])
 
 
 

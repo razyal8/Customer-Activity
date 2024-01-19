@@ -1,0 +1,890 @@
+track_id,track_title,course_id,course_title,topic_id,lesson_id,lesson_type,lesson_duration_in_mins
+track_1,Backend Developer,course_1,Node JS,topic_1,lesson_1,PRACTICE,25
+track_1,Backend Developer,course_1,Node JS,topic_1,lesson_2,PRACTICE,30
+track_1,Backend Developer,course_1,Node JS,topic_1,lesson_3,SESSION,5
+track_1,Backend Developer,course_1,Node JS,topic_1,lesson_4,SESSION,15
+track_1,Backend Developer,course_1,Node JS,topic_1,lesson_5,PRACTICE,2000
+track_1,Backend Developer,course_1,Node JS,topic_1,lesson_6,SESSION,15
+track_1,Backend Developer,course_1,Node JS,topic_1,lesson_7,SESSION,60
+track_1,Backend Developer,course_1,Node JS,topic_1,lesson_8,PRACTICE,80
+track_1,Backend Developer,course_1,Node JS,topic_1,lesson_9,SESSION,45
+track_1,Backend Developer,course_1,Node JS,topic_1,lesson_10,SESSION,35
+track_1,Backend Developer,course_1,Node JS,topic_1,lesson_11,PRACTICE,105
+track_1,Backend Developer,course_1,Node JS,topic_1,lesson_12,PRACTICE,30
+track_1,Backend Developer,course_1,Node JS,topic_1,lesson_13,SESSION,60
+track_1,Backend Developer,course_1,Node JS,topic_2,lesson_14,PRACTICE,120
+track_1,Backend Developer,course_1,Node JS,topic_2,lesson_15,SESSION,20
+track_1,Backend Developer,course_1,Node JS,topic_2,lesson_16,SESSION,15
+track_1,Backend Developer,course_1,Node JS,topic_2,lesson_17,SESSION,25
+track_1,Backend Developer,course_1,Node JS,topic_2,lesson_18,SESSION,15
+track_1,Backend Developer,course_1,Node JS,topic_2,lesson_19,PRACTICE,30
+track_1,Backend Developer,course_1,Node JS,topic_2,lesson_20,SESSION,35
+track_1,Backend Developer,course_1,Node JS,topic_2,lesson_21,SESSION,15
+track_1,Backend Developer,course_1,Node JS,topic_2,lesson_22,PRACTICE,45
+track_1,Backend Developer,course_1,Node JS,topic_3,lesson_23,EXAM,30
+track_1,Backend Developer,course_1,Node JS,topic_3,lesson_24,EXAM,45
+track_1,Backend Developer,course_1,Node JS,topic_3,lesson_25,EXAM,45
+track_1,Backend Developer,course_1,Node JS,topic_4,lesson_26,PRACTICE,30
+track_1,Backend Developer,course_1,Node JS,topic_4,lesson_27,SESSION,40
+track_1,Backend Developer,course_1,Node JS,topic_4,lesson_28,PRACTICE,30
+track_1,Backend Developer,course_1,Node JS,topic_4,lesson_29,SESSION,15
+track_1,Backend Developer,course_1,Node JS,topic_4,lesson_30,SESSION,40
+track_1,Backend Developer,course_1,Node JS,topic_4,lesson_31,SESSION,15
+track_1,Backend Developer,course_1,Node JS,topic_4,lesson_32,PRACTICE,30
+track_1,Backend Developer,course_1,Node JS,topic_4,lesson_33,SESSION,35
+track_1,Backend Developer,course_1,Node JS,topic_4,lesson_34,SESSION,15
+track_1,Backend Developer,course_1,Node JS,topic_4,lesson_35,PRACTICE,30
+track_1,Backend Developer,course_1,Node JS,topic_4,lesson_36,PRACTICE,90
+track_1,Backend Developer,course_1,Node JS,topic_5,lesson_37,PRACTICE,90
+track_1,Backend Developer,course_1,Node JS,topic_5,lesson_38,PRACTICE,180
+track_1,Backend Developer,course_1,Node JS,topic_6,lesson_39,SESSION,20
+track_1,Backend Developer,course_1,Node JS,topic_6,lesson_40,SESSION,5
+track_1,Backend Developer,course_1,Node JS,topic_6,lesson_41,SESSION,5
+track_1,Backend Developer,course_1,Node JS,topic_6,lesson_42,SESSION,5
+track_1,Backend Developer,course_1,Node JS,topic_6,lesson_43,SESSION,5
+track_1,Backend Developer,course_1,Node JS,topic_6,lesson_44,SESSION,5
+track_1,Backend Developer,course_1,Node JS,topic_7,lesson_45,SESSION,45
+track_1,Backend Developer,course_1,Node JS,topic_7,lesson_46,SESSION,40
+track_1,Backend Developer,course_1,Node JS,topic_7,lesson_47,PRACTICE,30
+track_1,Backend Developer,course_1,Node JS,topic_7,lesson_48,PRACTICE,90
+track_1,Backend Developer,course_1,Node JS,topic_7,lesson_49,SESSION,15
+track_1,Backend Developer,course_1,Node JS,topic_7,lesson_50,PRACTICE,30
+track_1,Backend Developer,course_1,Node JS,topic_7,lesson_51,SESSION,15
+track_1,Backend Developer,course_1,Node JS,topic_7,lesson_52,PRACTICE,80
+track_1,Backend Developer,course_1,Node JS,topic_7,lesson_53,PRACTICE,120
+track_1,Backend Developer,course_1,Node JS,topic_7,lesson_54,PRACTICE,30
+track_1,Backend Developer,course_1,Node JS,topic_7,lesson_55,PRACTICE,120
+track_1,Backend Developer,course_1,Node JS,topic_7,lesson_56,SESSION,45
+track_1,Backend Developer,course_1,Node JS,topic_7,lesson_57,SESSION,15
+track_1,Backend Developer,course_1,Node JS,topic_7,lesson_58,PRACTICE,90
+track_1,Backend Developer,course_1,Node JS,topic_7,lesson_59,SESSION,55
+track_2,English for Beginners,course_2,About Me,topic_8,lesson_60,PRACTICE,15
+track_2,English for Beginners,course_2,About Me,topic_8,lesson_61,PRACTICE,15
+track_2,English for Beginners,course_2,About Me,topic_8,lesson_62,PRACTICE,20
+track_2,English for Beginners,course_2,About Me,topic_8,lesson_63,PRACTICE,20
+track_2,English for Beginners,course_2,About Me,topic_8,lesson_64,PRACTICE,20
+track_2,English for Beginners,course_2,About Me,topic_8,lesson_65,SESSION,20
+track_2,English for Beginners,course_2,About Me,topic_8,lesson_66,PRACTICE,15
+track_2,English for Beginners,course_2,About Me,topic_8,lesson_67,PRACTICE,20
+track_2,English for Beginners,course_2,About Me,topic_8,lesson_68,PRACTICE,15
+track_2,English for Beginners,course_2,About Me,topic_8,lesson_69,SESSION,10
+track_2,English for Beginners,course_2,About Me,topic_8,lesson_70,PRACTICE,15
+track_2,English for Beginners,course_2,About Me,topic_8,lesson_71,SESSION,20
+track_2,English for Beginners,course_2,About Me,topic_8,lesson_72,PRACTICE,20
+track_2,English for Beginners,course_2,About Me,topic_8,lesson_73,PRACTICE,30
+track_2,English for Beginners,course_2,About Me,topic_8,lesson_74,SESSION,20
+track_2,English for Beginners,course_2,About Me,topic_8,lesson_75,SESSION,20
+track_2,English for Beginners,course_2,About Me,topic_8,lesson_76,PRACTICE,15
+track_2,English for Beginners,course_2,About Me,topic_8,lesson_77,SESSION,20
+track_2,English for Beginners,course_2,About Me,topic_8,lesson_78,PRACTICE,20
+track_2,English for Beginners,course_2,About Me,topic_8,lesson_79,SESSION,20
+track_2,English for Beginners,course_2,About Me,topic_8,lesson_80,PRACTICE,30
+track_2,English for Beginners,course_2,About Me,topic_8,lesson_81,PRACTICE,15
+track_2,English for Beginners,course_2,About Me,topic_9,lesson_82,SESSION,25
+track_2,English for Beginners,course_2,About Me,topic_10,lesson_83,EXAM,20
+track_2,English for Beginners,course_2,About Me,topic_10,lesson_84,EXAM,20
+track_2,English for Beginners,course_2,About Me,topic_10,lesson_85,EXAM,20
+track_2,English for Beginners,course_2,About Me,topic_10,lesson_86,EXAM,20
+track_2,English for Beginners,course_2,About Me,topic_10,lesson_87,EXAM,20
+track_2,English for Beginners,course_2,About Me,topic_10,lesson_88,EXAM,20
+track_2,English for Beginners,course_2,About Me,topic_10,lesson_89,EXAM,20
+track_2,English for Beginners,course_2,About Me,topic_10,lesson_90,EXAM,20
+track_2,English for Beginners,course_2,About Me,topic_10,lesson_91,EXAM,20
+track_2,English for Beginners,course_2,About Me,topic_10,lesson_92,EXAM,20
+track_2,English for Beginners,course_2,About Me,topic_11,lesson_93,PRACTICE,15
+track_2,English for Beginners,course_2,About Me,topic_11,lesson_94,SESSION,20
+track_2,English for Beginners,course_2,About Me,topic_11,lesson_95,PRACTICE,15
+track_2,English for Beginners,course_3,My Family,topic_12,lesson_96,EXAM,30
+track_2,English for Beginners,course_3,My Family,topic_12,lesson_97,EXAM,20
+track_2,English for Beginners,course_3,My Family,topic_12,lesson_98,EXAM,20
+track_2,English for Beginners,course_3,My Family,topic_13,lesson_99,SESSION,20
+track_2,English for Beginners,course_3,My Family,topic_13,lesson_100,EXAM,30
+track_2,English for Beginners,course_3,My Family,topic_14,lesson_101,SESSION,20
+track_2,English for Beginners,course_3,My Family,topic_14,lesson_102,SESSION,20
+track_2,English for Beginners,course_3,My Family,topic_14,lesson_103,SESSION,20
+track_2,English for Beginners,course_3,My Family,topic_14,lesson_104,PRACTICE,20
+track_2,English for Beginners,course_3,My Family,topic_14,lesson_105,PRACTICE,20
+track_2,English for Beginners,course_3,My Family,topic_14,lesson_106,PRACTICE,20
+track_2,English for Beginners,course_3,My Family,topic_14,lesson_107,PRACTICE,20
+track_2,English for Beginners,course_3,My Family,topic_14,lesson_108,SESSION,20
+track_2,English for Beginners,course_3,My Family,topic_14,lesson_109,PRACTICE,20
+track_2,English for Beginners,course_3,My Family,topic_14,lesson_110,PRACTICE,20
+track_2,English for Beginners,course_3,My Family,topic_14,lesson_111,PRACTICE,20
+track_2,English for Beginners,course_3,My Family,topic_14,lesson_112,SESSION,20
+track_2,English for Beginners,course_3,My Family,topic_14,lesson_113,PRACTICE,20
+track_2,English for Beginners,course_3,My Family,topic_14,lesson_114,SESSION,20
+track_2,English for Beginners,course_3,My Family,topic_14,lesson_115,PRACTICE,10
+track_2,English for Beginners,course_3,My Family,topic_14,lesson_116,PRACTICE,10
+track_2,English for Beginners,course_3,My Family,topic_14,lesson_117,PRACTICE,20
+track_2,English for Beginners,course_3,My Family,topic_14,lesson_118,PRACTICE,20
+track_2,English for Beginners,course_3,My Family,topic_14,lesson_119,SESSION,20
+track_2,English for Beginners,course_3,My Family,topic_14,lesson_120,PRACTICE,20
+track_2,English for Beginners,course_3,My Family,topic_14,lesson_121,PRACTICE,20
+track_2,English for Beginners,course_3,My Family,topic_14,lesson_122,PRACTICE,20
+track_2,English for Beginners,course_3,My Family,topic_15,lesson_123,PRACTICE,20
+track_2,English for Beginners,course_3,My Family,topic_15,lesson_124,PRACTICE,20
+track_2,English for Beginners,course_3,My Family,topic_15,lesson_125,SESSION,20
+track_3,XPM 4.0 Intermediate,course_4,Self - talk,topic_16,lesson_126,SESSION,35
+track_3,XPM 4.0 Intermediate,course_4,Self - talk,topic_17,lesson_127,SESSION,25
+track_3,XPM 4.0 Intermediate,course_4,Self - talk,topic_18,lesson_128,PRACTICE,10
+track_3,XPM 4.0 Intermediate,course_4,Self - talk,topic_18,lesson_129,SESSION,40
+track_3,XPM 4.0 Intermediate,course_4,Self - talk,topic_18,lesson_130,PRACTICE,10
+track_3,XPM 4.0 Intermediate,course_4,Self - talk,topic_18,lesson_131,PRACTICE,10
+track_3,XPM 4.0 Intermediate,course_4,Self - talk,topic_19,lesson_132,PRACTICE,10
+track_3,XPM 4.0 Intermediate,course_4,Self - talk,topic_19,lesson_133,PRACTICE,10
+track_3,XPM 4.0 Intermediate,course_4,Self - talk,topic_19,lesson_134,SESSION,40
+track_3,XPM 4.0 Intermediate,course_4,Self - talk,topic_19,lesson_135,PRACTICE,10
+track_3,XPM 4.0 Intermediate,course_4,Self - talk,topic_20,lesson_136,SESSION,40
+track_3,XPM 4.0 Intermediate,course_4,Self - talk,topic_20,lesson_137,PRACTICE,10
+track_3,XPM 4.0 Intermediate,course_4,Self - talk,topic_20,lesson_138,PRACTICE,10
+track_3,XPM 4.0 Intermediate,course_4,Self - talk,topic_20,lesson_139,PRACTICE,10
+track_3,XPM 4.0 Intermediate,course_4,Self - talk,topic_21,lesson_140,SESSION,45
+track_3,XPM 4.0 Intermediate,course_4,Self - talk,topic_22,lesson_141,PRACTICE,10
+track_3,XPM 4.0 Intermediate,course_4,Self - talk,topic_22,lesson_142,PRACTICE,10
+track_3,XPM 4.0 Intermediate,course_4,Self - talk,topic_22,lesson_143,SESSION,40
+track_3,XPM 4.0 Intermediate,course_4,Self - talk,topic_22,lesson_144,PRACTICE,10
+track_3,XPM 4.0 Intermediate,course_4,Self - talk,topic_23,lesson_145,SESSION,40
+track_3,XPM 4.0 Intermediate,course_4,Self - talk,topic_24,lesson_146,PRACTICE,10
+track_3,XPM 4.0 Intermediate,course_4,Self - talk,topic_24,lesson_147,PRACTICE,10
+track_3,XPM 4.0 Intermediate,course_4,Self - talk,topic_24,lesson_148,PRACTICE,10
+track_3,XPM 4.0 Intermediate,course_4,Self - talk,topic_24,lesson_149,SESSION,40
+track_3,XPM 4.0 Intermediate,course_4,Self - talk,topic_25,lesson_150,SESSION,40
+track_3,XPM 4.0 Intermediate,course_4,Self - talk,topic_26,lesson_151,PRACTICE,10
+track_3,XPM 4.0 Intermediate,course_4,Self - talk,topic_26,lesson_152,PRACTICE,10
+track_3,XPM 4.0 Intermediate,course_4,Self - talk,topic_26,lesson_153,PRACTICE,10
+track_3,XPM 4.0 Intermediate,course_4,Self - talk,topic_26,lesson_154,SESSION,45
+track_3,XPM 4.0 Intermediate,course_4,Self - talk,topic_27,lesson_155,SESSION,40
+track_3,XPM 4.0 Intermediate,course_4,Self - talk,topic_28,lesson_156,SESSION,30
+track_3,XPM 4.0 Intermediate,course_4,Self - talk,topic_28,lesson_157,PRACTICE,10
+track_3,XPM 4.0 Intermediate,course_4,Self - talk,topic_28,lesson_158,PRACTICE,10
+track_3,XPM 4.0 Intermediate,course_4,Self - talk,topic_28,lesson_159,PRACTICE,10
+track_3,XPM 4.0 Intermediate,course_4,Self - talk,topic_29,lesson_160,SESSION,40
+track_3,XPM 4.0 Intermediate,course_4,Self - talk,topic_30,lesson_161,SESSION,35
+track_3,XPM 4.0 Intermediate,course_4,Self - talk,topic_31,lesson_162,PRACTICE,15
+track_3,XPM 4.0 Intermediate,course_4,Self - talk,topic_31,lesson_163,PRACTICE,15
+track_3,XPM 4.0 Intermediate,course_4,Self - talk,topic_31,lesson_164,SESSION,40
+track_3,XPM 4.0 Intermediate,course_4,Self - talk,topic_31,lesson_165,PRACTICE,15
+track_3,XPM 4.0 Intermediate,course_4,Self - talk,topic_32,lesson_166,SESSION,45
+track_3,XPM 4.0 Intermediate,course_4,Self - talk,topic_32,lesson_167,PRACTICE,10
+track_3,XPM 4.0 Intermediate,course_4,Self - talk,topic_32,lesson_168,PRACTICE,10
+track_3,XPM 4.0 Intermediate,course_4,Self - talk,topic_32,lesson_169,PRACTICE,10
+track_3,XPM 4.0 Intermediate,course_4,Self - talk,topic_33,lesson_170,PRACTICE,10
+track_3,XPM 4.0 Intermediate,course_4,Self - talk,topic_33,lesson_171,PRACTICE,10
+track_3,XPM 4.0 Intermediate,course_4,Self - talk,topic_33,lesson_172,PRACTICE,10
+track_3,XPM 4.0 Intermediate,course_4,Self - talk,topic_33,lesson_173,SESSION,35
+track_3,XPM 4.0 Intermediate,course_4,Self - talk,topic_34,lesson_174,PRACTICE,10
+track_3,XPM 4.0 Intermediate,course_4,Self - talk,topic_34,lesson_175,SESSION,40
+track_3,XPM 4.0 Intermediate,course_4,Self - talk,topic_34,lesson_176,PRACTICE,10
+track_3,XPM 4.0 Intermediate,course_4,Self - talk,topic_34,lesson_177,PRACTICE,10
+track_3,XPM 4.0 Intermediate,course_4,Self - talk,topic_35,lesson_178,PRACTICE,10
+track_3,XPM 4.0 Intermediate,course_4,Self - talk,topic_35,lesson_179,PRACTICE,10
+track_3,XPM 4.0 Intermediate,course_4,Self - talk,topic_35,lesson_180,SESSION,40
+track_3,XPM 4.0 Intermediate,course_4,Self - talk,topic_35,lesson_181,PRACTICE,10
+track_3,XPM 4.0 Intermediate,course_4,Self - talk,topic_36,lesson_182,PRACTICE,10
+track_3,XPM 4.0 Intermediate,course_4,Self - talk,topic_36,lesson_183,PRACTICE,10
+track_3,XPM 4.0 Intermediate,course_4,Self - talk,topic_36,lesson_184,SESSION,30
+track_3,XPM 4.0 Intermediate,course_4,Self - talk,topic_36,lesson_185,PRACTICE,10
+track_4,Intro to CCBP 4.0 Intensive,course_5,Introduction,topic_37,lesson_186,SESSION,5
+track_4,Intro to CCBP 4.0 Intensive,course_5,Introduction,topic_37,lesson_187,SESSION,5
+track_4,Intro to CCBP 4.0 Intensive,course_5,Introduction,topic_37,lesson_188,SESSION,5
+track_4,Intro to CCBP 4.0 Intensive,course_5,Introduction,topic_37,lesson_189,SESSION,5
+track_4,Intro to CCBP 4.0 Intensive,course_5,Introduction,topic_38,lesson_190,SESSION,5
+track_4,Intro to CCBP 4.0 Intensive,course_5,Introduction,topic_38,lesson_191,SESSION,5
+track_4,Intro to CCBP 4.0 Intensive,course_5,Introduction,topic_38,lesson_192,SESSION,5
+track_4,Intro to CCBP 4.0 Intensive,course_5,Introduction,topic_38,lesson_193,SESSION,5
+track_4,Intro to CCBP 4.0 Intensive,course_5,Introduction,topic_39,lesson_194,SESSION,55
+track_4,Intro to CCBP 4.0 Intensive,course_5,Introduction,topic_39,lesson_195,SESSION,50
+track_4,Intro to CCBP 4.0 Intensive,course_5,Introduction,topic_39,lesson_196,SESSION,45
+track_4,Intro to CCBP 4.0 Intensive,course_5,Introduction,topic_40,lesson_197,SESSION,35
+track_4,Intro to CCBP 4.0 Intensive,course_5,Introduction,topic_41,lesson_198,SESSION,55
+track_4,Intro to CCBP 4.0 Intensive,course_5,Introduction,topic_42,lesson_199,SESSION,35
+track_4,Intro to CCBP 4.0 Intensive,course_5,Introduction,topic_42,lesson_200,SESSION,53
+track_4,Intro to CCBP 4.0 Intensive,course_5,Introduction,topic_42,lesson_201,SESSION,20
+track_4,Intro to CCBP 4.0 Intensive,course_5,Introduction,topic_42,lesson_202,SESSION,20
+track_4,Intro to CCBP 4.0 Intensive,course_5,Introduction,topic_42,lesson_203,SESSION,60
+track_5,Aptitude,course_6,Input - Output,topic_43,lesson_204,SESSION,30
+track_5,Aptitude,course_6,Input - Output,topic_43,lesson_205,PRACTICE,15
+track_5,Aptitude,course_6,Input - Output,topic_43,lesson_206,PRACTICE,15
+track_5,Aptitude,course_6,Input - Output,topic_43,lesson_207,PRACTICE,15
+track_5,Aptitude,course_6,Input - Output,topic_43,lesson_208,SESSION,20
+track_5,Aptitude,course_6,Input - Output,topic_43,lesson_209,SESSION,25
+track_5,Aptitude,course_6,Input - Output,topic_44,lesson_210,PRACTICE,15
+track_5,Aptitude,course_6,Input - Output,topic_44,lesson_211,SESSION,20
+track_5,Aptitude,course_6,Input - Output,topic_44,lesson_212,PRACTICE,15
+track_5,Aptitude,course_6,Input - Output,topic_44,lesson_213,PRACTICE,15
+track_5,Aptitude,course_6,Input - Output,topic_44,lesson_214,SESSION,25
+track_5,Aptitude,course_6,Input - Output,topic_44,lesson_215,PRACTICE,15
+track_5,Aptitude,course_6,Input - Output,topic_44,lesson_216,SESSION,20
+track_5,Aptitude,course_6,Input - Output,topic_44,lesson_217,PRACTICE,15
+track_5,Aptitude,course_6,Input - Output,topic_44,lesson_218,PRACTICE,15
+track_5,Aptitude,course_6,Input - Output,topic_44,lesson_219,PRACTICE,15
+track_5,Aptitude,course_6,Input - Output,topic_44,lesson_220,SESSION,10
+track_5,Aptitude,course_6,Input - Output,topic_45,lesson_221,PRACTICE,15
+track_5,Aptitude,course_6,Input - Output,topic_45,lesson_222,SESSION,25
+track_5,Aptitude,course_7,Verbal Ability,topic_46,lesson_223,EXAM,20
+track_5,Aptitude,course_7,Verbal Ability,topic_46,lesson_224,EXAM,40
+track_5,Aptitude,course_7,Verbal Ability,topic_46,lesson_225,EXAM,20
+track_6,Programming,course_8,Data Structures,topic_47,lesson_226,PRACTICE,60
+track_6,Programming,course_8,Data Structures,topic_47,lesson_227,SESSION,15
+track_6,Programming,course_8,Data Structures,topic_47,lesson_228,PRACTICE,5
+track_6,Programming,course_8,Data Structures,topic_47,lesson_229,PRACTICE,60
+track_6,Programming,course_8,Data Structures,topic_47,lesson_230,PRACTICE,60
+track_6,Programming,course_8,Data Structures,topic_47,lesson_231,SESSION,15
+track_6,Programming,course_8,Data Structures,topic_47,lesson_232,SESSION,15
+track_6,Programming,course_8,Data Structures,topic_47,lesson_233,SESSION,15
+track_6,Programming,course_8,Data Structures,topic_47,lesson_234,SESSION,15
+track_6,Programming,course_8,Data Structures,topic_47,lesson_235,PRACTICE,60
+track_6,Programming,course_8,Data Structures,topic_47,lesson_236,SESSION,20
+track_6,Programming,course_8,Data Structures,topic_47,lesson_237,SESSION,15
+track_6,Programming,course_8,Data Structures,topic_47,lesson_238,SESSION,35
+track_6,Programming,course_8,Data Structures,topic_47,lesson_239,PRACTICE,10
+track_6,Programming,course_8,Data Structures,topic_47,lesson_240,SESSION,15
+track_6,Programming,course_8,Data Structures,topic_47,lesson_241,PRACTICE,60
+track_6,Programming,course_8,Data Structures,topic_47,lesson_242,SESSION,10
+track_6,Programming,course_8,Data Structures,topic_48,lesson_243,SESSION,15
+track_6,Programming,course_8,Data Structures,topic_48,lesson_244,SESSION,15
+track_6,Programming,course_8,Data Structures,topic_48,lesson_245,PRACTICE,60
+track_6,Programming,course_8,Data Structures,topic_48,lesson_246,SESSION,15
+track_6,Programming,course_8,Data Structures,topic_48,lesson_247,PRACTICE,60
+track_6,Programming,course_8,Data Structures,topic_48,lesson_248,SESSION,15
+track_6,Programming,course_8,Data Structures,topic_48,lesson_249,SESSION,30
+track_6,Programming,course_8,Data Structures,topic_48,lesson_250,SESSION,15
+track_6,Programming,course_8,Data Structures,topic_48,lesson_251,PRACTICE,5
+track_6,Programming,course_8,Data Structures,topic_48,lesson_252,PRACTICE,20
+track_6,Programming,course_8,Data Structures,topic_48,lesson_253,SESSION,15
+track_6,Programming,course_8,Data Structures,topic_48,lesson_254,PRACTICE,60
+track_6,Programming,course_8,Data Structures,topic_48,lesson_255,PRACTICE,60
+track_6,Programming,course_8,Data Structures,topic_48,lesson_256,PRACTICE,60
+track_6,Programming,course_8,Data Structures,topic_48,lesson_257,PRACTICE,60
+track_6,Programming,course_8,Data Structures,topic_48,lesson_258,PRACTICE,60
+track_6,Programming,course_8,Data Structures,topic_48,lesson_259,PRACTICE,60
+track_6,Programming,course_8,Data Structures,topic_48,lesson_260,SESSION,30
+track_6,Programming,course_8,Data Structures,topic_48,lesson_261,PRACTICE,60
+track_6,Programming,course_8,Data Structures,topic_48,lesson_262,SESSION,30
+track_6,Programming,course_8,Data Structures,topic_48,lesson_263,PRACTICE,20
+track_6,Programming,course_8,Data Structures,topic_48,lesson_264,SESSION,15
+track_6,Programming,course_8,Data Structures,topic_48,lesson_265,PRACTICE,60
+track_6,Programming,course_8,Data Structures,topic_48,lesson_266,SESSION,30
+track_6,Programming,course_8,Data Structures,topic_48,lesson_267,SESSION,40
+track_6,Programming,course_8,Data Structures,topic_48,lesson_268,SESSION,35
+track_6,Programming,course_8,Data Structures,topic_48,lesson_269,SESSION,15
+track_6,Programming,course_8,Data Structures,topic_48,lesson_270,PRACTICE,60
+track_6,Programming,course_8,Data Structures,topic_48,lesson_271,SESSION,45
+track_6,Programming,course_8,Data Structures,topic_48,lesson_272,SESSION,35
+track_6,Programming,course_8,Data Structures,topic_48,lesson_273,SESSION,25
+track_6,Programming,course_8,Data Structures,topic_48,lesson_274,SESSION,15
+track_6,Programming,course_8,Data Structures,topic_48,lesson_275,SESSION,15
+track_6,Programming,course_8,Data Structures,topic_48,lesson_276,SESSION,30
+track_6,Programming,course_8,Data Structures,topic_48,lesson_277,SESSION,35
+track_6,Programming,course_8,Data Structures,topic_48,lesson_278,PRACTICE,60
+track_6,Programming,course_8,Data Structures,topic_48,lesson_279,SESSION,20
+track_6,Programming,course_8,Data Structures,topic_48,lesson_280,SESSION,30
+track_6,Programming,course_8,Data Structures,topic_48,lesson_281,SESSION,20
+track_6,Programming,course_8,Data Structures,topic_48,lesson_282,SESSION,35
+track_6,Programming,course_8,Data Structures,topic_48,lesson_283,SESSION,40
+track_6,Programming,course_8,Data Structures,topic_49,lesson_284,SESSION,15
+track_6,Programming,course_8,Data Structures,topic_49,lesson_285,SESSION,15
+track_6,Programming,course_8,Data Structures,topic_49,lesson_286,PRACTICE,60
+track_6,Programming,course_8,Data Structures,topic_49,lesson_287,PRACTICE,90
+track_6,Programming,course_8,Data Structures,topic_49,lesson_288,PRACTICE,15
+track_6,Programming,course_8,Data Structures,topic_49,lesson_289,PRACTICE,60
+track_6,Programming,course_8,Data Structures,topic_49,lesson_290,SESSION,15
+track_6,Programming,course_8,Data Structures,topic_49,lesson_291,PRACTICE,90
+track_6,Programming,course_8,Data Structures,topic_49,lesson_292,PRACTICE,60
+track_6,Programming,course_8,Data Structures,topic_49,lesson_293,SESSION,25
+track_6,Programming,course_8,Data Structures,topic_49,lesson_294,PRACTICE,60
+track_6,Programming,course_8,Data Structures,topic_49,lesson_295,PRACTICE,10
+track_6,Programming,course_8,Data Structures,topic_49,lesson_296,SESSION,60
+track_6,Programming,course_8,Data Structures,topic_49,lesson_297,SESSION,15
+track_6,Programming,course_8,Data Structures,topic_49,lesson_298,SESSION,55
+track_6,Programming,course_8,Data Structures,topic_49,lesson_299,PRACTICE,60
+track_6,Programming,course_8,Data Structures,topic_49,lesson_300,PRACTICE,30
+track_6,Programming,course_8,Data Structures,topic_49,lesson_301,SESSION,25
+track_6,Programming,course_8,Data Structures,topic_49,lesson_302,PRACTICE,10
+track_6,Programming,course_8,Data Structures,topic_49,lesson_303,PRACTICE,30
+track_6,Programming,course_8,Data Structures,topic_49,lesson_304,SESSION,15
+track_6,Programming,course_8,Data Structures,topic_49,lesson_305,SESSION,15
+track_6,Programming,course_8,Data Structures,topic_49,lesson_306,PRACTICE,60
+track_6,Programming,course_8,Data Structures,topic_49,lesson_307,SESSION,15
+track_6,Programming,course_8,Data Structures,topic_49,lesson_308,SESSION,15
+track_6,Programming,course_8,Data Structures,topic_49,lesson_309,SESSION,25
+track_6,Programming,course_8,Data Structures,topic_49,lesson_310,SESSION,15
+track_6,Programming,course_8,Data Structures,topic_49,lesson_311,PRACTICE,60
+track_6,Programming,course_8,Data Structures,topic_49,lesson_312,SESSION,15
+track_6,Programming,course_8,Data Structures,topic_49,lesson_313,SESSION,15
+track_6,Programming,course_8,Data Structures,topic_49,lesson_314,SESSION,30
+track_6,Programming,course_8,Data Structures,topic_49,lesson_315,SESSION,15
+track_6,Programming,course_8,Data Structures,topic_49,lesson_316,SESSION,15
+track_6,Programming,course_8,Data Structures,topic_49,lesson_317,PRACTICE,25
+track_6,Programming,course_8,Data Structures,topic_49,lesson_318,PRACTICE,90
+track_6,Programming,course_8,Data Structures,topic_49,lesson_319,SESSION,35
+track_6,Programming,course_8,Data Structures,topic_50,lesson_320,PRACTICE,60
+track_6,Programming,course_8,Data Structures,topic_50,lesson_321,PRACTICE,60
+track_6,Programming,course_8,Data Structures,topic_50,lesson_322,PRACTICE,60
+track_6,Programming,course_8,Data Structures,topic_50,lesson_323,PRACTICE,60
+track_6,Programming,course_8,Data Structures,topic_50,lesson_324,PRACTICE,60
+track_6,Programming,course_8,Data Structures,topic_50,lesson_325,PRACTICE,60
+track_6,Programming,course_8,Data Structures,topic_50,lesson_326,PRACTICE,60
+track_6,Programming,course_8,Data Structures,topic_50,lesson_327,PRACTICE,60
+track_6,Programming,course_8,Data Structures,topic_50,lesson_328,PRACTICE,60
+track_6,Programming,course_8,Data Structures,topic_50,lesson_329,PRACTICE,60
+track_6,Programming,course_8,Data Structures,topic_50,lesson_330,PRACTICE,60
+track_6,Programming,course_8,Data Structures,topic_51,lesson_331,PRACTICE,120
+track_6,Programming,course_8,Data Structures,topic_51,lesson_332,PRACTICE,20
+track_6,Programming,course_8,Data Structures,topic_51,lesson_333,PRACTICE,10
+track_6,Programming,course_8,Data Structures,topic_51,lesson_334,SESSION,20
+track_6,Programming,course_8,Data Structures,topic_51,lesson_335,PRACTICE,120
+track_6,Programming,course_8,Data Structures,topic_51,lesson_336,SESSION,20
+track_6,Programming,course_8,Data Structures,topic_51,lesson_337,EXAM,90
+track_6,Programming,course_8,Data Structures,topic_52,lesson_338,PRACTICE,60
+track_6,Programming,course_8,Data Structures,topic_52,lesson_339,SESSION,30
+track_6,Programming,course_8,Data Structures,topic_52,lesson_340,SESSION,20
+track_6,Programming,course_8,Data Structures,topic_52,lesson_341,SESSION,30
+track_6,Programming,course_8,Data Structures,topic_52,lesson_342,PRACTICE,60
+track_6,Programming,course_8,Data Structures,topic_52,lesson_343,PRACTICE,15
+track_6,Programming,course_8,Data Structures,topic_52,lesson_344,PRACTICE,60
+track_6,Programming,course_8,Data Structures,topic_52,lesson_345,SESSION,15
+track_6,Programming,course_8,Data Structures,topic_52,lesson_346,PRACTICE,60
+track_6,Programming,course_8,Data Structures,topic_52,lesson_347,SESSION,15
+track_6,Programming,course_8,Data Structures,topic_52,lesson_348,PRACTICE,60
+track_6,Programming,course_8,Data Structures,topic_52,lesson_349,SESSION,15
+track_6,Programming,course_8,Data Structures,topic_52,lesson_350,PRACTICE,60
+track_6,Programming,course_8,Data Structures,topic_52,lesson_351,SESSION,15
+track_6,Programming,course_8,Data Structures,topic_52,lesson_352,SESSION,15
+track_6,Programming,course_8,Data Structures,topic_52,lesson_353,SESSION,50
+track_6,Programming,course_8,Data Structures,topic_52,lesson_354,PRACTICE,60
+track_6,Programming,course_8,Data Structures,topic_52,lesson_355,SESSION,15
+track_6,Programming,course_8,Data Structures,topic_52,lesson_356,SESSION,20
+track_6,Programming,course_8,Data Structures,topic_52,lesson_357,SESSION,30
+track_6,Programming,course_8,Data Structures,topic_52,lesson_358,SESSION,20
+track_6,Programming,course_8,Data Structures,topic_52,lesson_359,SESSION,15
+track_6,Programming,course_8,Data Structures,topic_52,lesson_360,PRACTICE,5
+track_6,Programming,course_8,Data Structures,topic_52,lesson_361,SESSION,20
+track_6,Programming,course_8,Data Structures,topic_52,lesson_362,SESSION,30
+track_6,Programming,course_8,Data Structures,topic_52,lesson_363,SESSION,40
+track_6,Programming,course_8,Data Structures,topic_52,lesson_364,PRACTICE,5
+track_6,Programming,course_8,Data Structures,topic_52,lesson_365,PRACTICE,60
+track_6,Programming,course_8,Data Structures,topic_52,lesson_366,PRACTICE,10
+track_6,Programming,course_8,Data Structures,topic_52,lesson_367,SESSION,15
+track_6,Programming,course_8,Data Structures,topic_52,lesson_368,SESSION,25
+track_6,Programming,course_8,Data Structures,topic_52,lesson_369,PRACTICE,60
+track_6,Programming,course_8,Data Structures,topic_52,lesson_370,SESSION,40
+track_6,Programming,course_8,Data Structures,topic_52,lesson_371,PRACTICE,60
+track_6,Programming,course_8,Data Structures,topic_52,lesson_372,SESSION,50
+track_6,Programming,course_8,Data Structures,topic_52,lesson_373,PRACTICE,60
+track_6,Programming,course_8,Data Structures,topic_52,lesson_374,SESSION,15
+track_6,Programming,course_8,Data Structures,topic_52,lesson_375,PRACTICE,60
+track_6,Programming,course_8,Data Structures,topic_52,lesson_376,SESSION,30
+track_6,Programming,course_8,Data Structures,topic_52,lesson_377,PRACTICE,60
+track_6,Programming,course_8,Data Structures,topic_52,lesson_378,SESSION,15
+track_6,Programming,course_8,Data Structures,topic_52,lesson_379,SESSION,50
+track_6,Programming,course_8,Data Structures,topic_52,lesson_380,SESSION,20
+track_6,Programming,course_8,Data Structures,topic_52,lesson_381,PRACTICE,60
+track_6,Programming,course_8,Data Structures,topic_52,lesson_382,SESSION,40
+track_6,Programming,course_8,Data Structures,topic_52,lesson_383,SESSION,15
+track_6,Programming,course_8,Data Structures,topic_52,lesson_384,SESSION,55
+track_6,Programming,course_8,Data Structures,topic_52,lesson_385,SESSION,15
+track_6,Programming,course_8,Data Structures,topic_52,lesson_386,PRACTICE,60
+track_6,Programming,course_8,Data Structures,topic_52,lesson_387,SESSION,20
+track_6,Programming,course_8,Data Structures,topic_53,lesson_388,PRACTICE,5
+track_6,Programming,course_8,Data Structures,topic_53,lesson_389,SESSION,40
+track_6,Programming,course_8,Data Structures,topic_53,lesson_390,PRACTICE,10
+track_6,Programming,course_8,Data Structures,topic_53,lesson_391,SESSION,35
+track_6,Programming,course_8,Data Structures,topic_53,lesson_392,PRACTICE,120
+track_6,Programming,course_8,Data Structures,topic_53,lesson_393,SESSION,40
+track_6,Programming,course_8,Data Structures,topic_53,lesson_394,PRACTICE,10
+track_6,Programming,course_8,Data Structures,topic_53,lesson_395,SESSION,25
+track_6,Programming,course_8,Data Structures,topic_53,lesson_396,PRACTICE,10
+track_6,Programming,course_8,Data Structures,topic_53,lesson_397,SESSION,25
+track_6,Programming,course_8,Data Structures,topic_53,lesson_398,PRACTICE,120
+track_6,Programming,course_8,Data Structures,topic_53,lesson_399,PRACTICE,180
+track_6,Programming,course_8,Data Structures,topic_53,lesson_400,PRACTICE,25
+track_6,Programming,course_8,Data Structures,topic_53,lesson_401,SESSION,45
+track_6,Programming,course_8,Data Structures,topic_53,lesson_402,PRACTICE,120
+track_6,Programming,course_8,Data Structures,topic_53,lesson_403,SESSION,45
+track_6,Programming,course_8,Data Structures,topic_53,lesson_404,SESSION,40
+track_6,Programming,course_8,Data Structures,topic_53,lesson_405,SESSION,45
+track_6,Programming,course_8,Data Structures,topic_53,lesson_406,PRACTICE,180
+track_6,Programming,course_8,Data Structures,topic_53,lesson_407,SESSION,20
+track_6,Programming,course_8,Data Structures,topic_53,lesson_408,PRACTICE,5
+track_6,Programming,course_8,Data Structures,topic_54,lesson_409,SESSION,20
+track_6,Programming,course_8,Data Structures,topic_54,lesson_410,PRACTICE,120
+track_6,Programming,course_8,Data Structures,topic_54,lesson_411,PRACTICE,15
+track_6,Programming,course_8,Data Structures,topic_54,lesson_412,PRACTICE,120
+track_6,Programming,course_8,Data Structures,topic_54,lesson_413,SESSION,15
+track_6,Programming,course_8,Data Structures,topic_54,lesson_414,EXAM,90
+track_6,Programming,course_8,Data Structures,topic_54,lesson_415,PRACTICE,20
+track_6,Programming,course_8,Data Structures,topic_54,lesson_416,SESSION,20
+track_6,Programming,course_8,Data Structures,topic_54,lesson_417,EXAM,90
+track_6,Programming,course_8,Data Structures,topic_54,lesson_418,EXAM,90
+track_6,Programming,course_8,Data Structures,topic_54,lesson_419,PRACTICE,90
+track_6,Programming,course_8,Data Structures,topic_54,lesson_420,SESSION,20
+track_6,Programming,course_8,Data Structures,topic_55,lesson_421,EXAM,30
+track_6,Programming,course_8,Data Structures,topic_55,lesson_422,PRACTICE,15
+track_6,Programming,course_8,Data Structures,topic_55,lesson_423,SESSION,20
+track_6,Programming,course_8,Data Structures,topic_55,lesson_424,PRACTICE,15
+track_6,Programming,course_8,Data Structures,topic_55,lesson_425,SESSION,20
+track_6,Programming,course_8,Data Structures,topic_55,lesson_426,PRACTICE,60
+track_6,Programming,course_8,Data Structures,topic_55,lesson_427,PRACTICE,15
+track_6,Programming,course_8,Data Structures,topic_55,lesson_428,SESSION,20
+track_2,English for Beginners,course_9,My Daily routine,topic_56,lesson_429,PRACTICE,15
+track_2,English for Beginners,course_9,My Daily routine,topic_56,lesson_430,PRACTICE,20
+track_2,English for Beginners,course_9,My Daily routine,topic_56,lesson_431,SESSION,25
+track_2,English for Beginners,course_9,My Daily routine,topic_56,lesson_432,SESSION,25
+track_2,English for Beginners,course_9,My Daily routine,topic_57,lesson_433,PRACTICE,15
+track_2,English for Beginners,course_9,My Daily routine,topic_57,lesson_434,PRACTICE,15
+track_2,English for Beginners,course_9,My Daily routine,topic_57,lesson_435,PRACTICE,15
+track_2,English for Beginners,course_9,My Daily routine,topic_57,lesson_436,PRACTICE,15
+track_2,English for Beginners,course_9,My Daily routine,topic_57,lesson_437,SESSION,20
+track_2,English for Beginners,course_9,My Daily routine,topic_57,lesson_438,PRACTICE,15
+track_2,English for Beginners,course_9,My Daily routine,topic_57,lesson_439,SESSION,20
+track_2,English for Beginners,course_9,My Daily routine,topic_57,lesson_440,PRACTICE,15
+track_2,English for Beginners,course_9,My Daily routine,topic_57,lesson_441,SESSION,20
+track_2,English for Beginners,course_9,My Daily routine,topic_57,lesson_442,SESSION,20
+track_2,English for Beginners,course_9,My Daily routine,topic_57,lesson_443,PRACTICE,15
+track_2,English for Beginners,course_9,My Daily routine,topic_57,lesson_444,PRACTICE,15
+track_2,English for Beginners,course_9,My Daily routine,topic_58,lesson_445,EXAM,20
+track_2,English for Beginners,course_9,My Daily routine,topic_58,lesson_446,EXAM,20
+track_2,English for Beginners,course_9,My Daily routine,topic_58,lesson_447,EXAM,20
+track_2,English for Beginners,course_9,My Daily routine,topic_58,lesson_448,EXAM,20
+track_2,English for Beginners,course_9,My Daily routine,topic_59,lesson_449,PRACTICE,20
+track_2,English for Beginners,course_9,My Daily routine,topic_59,lesson_450,SESSION,25
+track_2,English for Beginners,course_9,My Daily routine,topic_59,lesson_451,PRACTICE,20
+track_2,English for Beginners,course_9,My Daily routine,topic_59,lesson_452,SESSION,25
+track_2,English for Beginners,course_9,My Daily routine,topic_60,lesson_453,PRACTICE,15
+track_2,English for Beginners,course_9,My Daily routine,topic_60,lesson_454,PRACTICE,15
+track_2,English for Beginners,course_9,My Daily routine,topic_60,lesson_455,PRACTICE,15
+track_2,English for Beginners,course_9,My Daily routine,topic_60,lesson_456,PRACTICE,15
+track_2,English for Beginners,course_9,My Daily routine,topic_60,lesson_457,SESSION,25
+track_2,English for Beginners,course_9,My Daily routine,topic_60,lesson_458,SESSION,25
+track_2,English for Beginners,course_9,My Daily routine,topic_60,lesson_459,PRACTICE,15
+track_2,English for Beginners,course_9,My Daily routine,topic_60,lesson_460,PRACTICE,15
+track_2,English for Beginners,course_9,My Daily routine,topic_60,lesson_461,PRACTICE,15
+track_2,English for Beginners,course_9,My Daily routine,topic_60,lesson_462,SESSION,25
+track_2,English for Beginners,course_10,My Past & Future,topic_61,lesson_463,PRACTICE,20
+track_2,English for Beginners,course_10,My Past & Future,topic_61,lesson_464,PRACTICE,20
+track_2,English for Beginners,course_10,My Past & Future,topic_61,lesson_465,SESSION,25
+track_2,English for Beginners,course_10,My Past & Future,topic_61,lesson_466,SESSION,25
+track_2,English for Beginners,course_10,My Past & Future,topic_62,lesson_467,PRACTICE,20
+track_2,English for Beginners,course_10,My Past & Future,topic_62,lesson_468,SESSION,25
+track_2,English for Beginners,course_10,My Past & Future,topic_62,lesson_469,PRACTICE,20
+track_2,English for Beginners,course_10,My Past & Future,topic_63,lesson_470,PRACTICE,20
+track_2,English for Beginners,course_10,My Past & Future,topic_63,lesson_471,PRACTICE,20
+track_2,English for Beginners,course_10,My Past & Future,topic_63,lesson_472,PRACTICE,20
+track_2,English for Beginners,course_10,My Past & Future,topic_63,lesson_473,PRACTICE,20
+track_2,English for Beginners,course_10,My Past & Future,topic_63,lesson_474,SESSION,25
+track_2,English for Beginners,course_10,My Past & Future,topic_63,lesson_475,SESSION,25
+track_2,English for Beginners,course_10,My Past & Future,topic_64,lesson_476,PRACTICE,15
+track_2,English for Beginners,course_10,My Past & Future,topic_64,lesson_477,SESSION,25
+track_2,English for Beginners,course_10,My Past & Future,topic_64,lesson_478,PRACTICE,15
+track_2,English for Beginners,course_10,My Past & Future,topic_64,lesson_479,PRACTICE,15
+track_2,English for Beginners,course_10,My Past & Future,topic_64,lesson_480,PRACTICE,15
+track_2,English for Beginners,course_10,My Past & Future,topic_64,lesson_481,PRACTICE,15
+track_2,English for Beginners,course_10,My Past & Future,topic_64,lesson_482,SESSION,25
+track_2,English for Beginners,course_10,My Past & Future,topic_64,lesson_483,PRACTICE,15
+track_2,English for Beginners,course_10,My Past & Future,topic_65,lesson_484,EXAM,30
+track_2,English for Beginners,course_10,My Past & Future,topic_65,lesson_485,EXAM,30
+track_2,English for Beginners,course_10,My Past & Future,topic_65,lesson_486,EXAM,30
+track_2,English for Beginners,course_10,My Past & Future,topic_66,lesson_487,PRACTICE,15
+track_2,English for Beginners,course_10,My Past & Future,topic_66,lesson_488,PRACTICE,15
+track_2,English for Beginners,course_10,My Past & Future,topic_66,lesson_489,SESSION,25
+track_2,English for Beginners,course_10,My Past & Future,topic_66,lesson_490,PRACTICE,15
+track_2,English for Beginners,course_10,My Past & Future,topic_66,lesson_491,PRACTICE,20
+track_2,English for Beginners,course_10,My Past & Future,topic_66,lesson_492,PRACTICE,15
+track_2,English for Beginners,course_10,My Past & Future,topic_66,lesson_493,SESSION,25
+track_2,English for Beginners,course_10,My Past & Future,topic_67,lesson_494,SESSION,25
+track_2,English for Beginners,course_10,My Past & Future,topic_67,lesson_495,PRACTICE,15
+track_2,English for Beginners,course_10,My Past & Future,topic_67,lesson_496,PRACTICE,20
+track_2,English for Beginners,course_10,My Past & Future,topic_67,lesson_497,SESSION,25
+track_2,English for Beginners,course_10,My Past & Future,topic_67,lesson_498,PRACTICE,20
+track_2,English for Beginners,course_10,My Past & Future,topic_67,lesson_499,PRACTICE,15
+track_2,English for Beginners,course_10,My Past & Future,topic_67,lesson_500,PRACTICE,15
+track_7,Tech Foundations,course_11,Practical Python,topic_68,lesson_501,EXAM,20
+track_7,Tech Foundations,course_11,Practical Python,topic_68,lesson_502,SESSION,40
+track_7,Tech Foundations,course_11,Practical Python,topic_68,lesson_503,SESSION,30
+track_7,Tech Foundations,course_11,Practical Python,topic_68,lesson_504,SESSION,30
+track_7,Tech Foundations,course_11,Practical Python,topic_68,lesson_505,PRACTICE,40
+track_7,Tech Foundations,course_11,Practical Python,topic_68,lesson_506,SESSION,40
+track_7,Tech Foundations,course_11,Practical Python,topic_68,lesson_507,PRACTICE,30
+track_7,Tech Foundations,course_11,Practical Python,topic_68,lesson_508,SESSION,40
+track_7,Tech Foundations,course_11,Practical Python,topic_68,lesson_509,SESSION,40
+track_7,Tech Foundations,course_11,Practical Python,topic_68,lesson_510,SESSION,40
+track_7,Tech Foundations,course_11,Practical Python,topic_68,lesson_511,SESSION,40
+track_7,Tech Foundations,course_11,Practical Python,topic_68,lesson_512,SESSION,30
+track_7,Tech Foundations,course_11,Practical Python,topic_68,lesson_513,SESSION,40
+track_7,Tech Foundations,course_11,Practical Python,topic_68,lesson_514,EXAM,10
+track_7,Tech Foundations,course_11,Practical Python,topic_68,lesson_515,SESSION,30
+track_7,Tech Foundations,course_11,Practical Python,topic_68,lesson_516,SESSION,30
+track_7,Tech Foundations,course_11,Practical Python,topic_68,lesson_517,PRACTICE,40
+track_7,Tech Foundations,course_11,Practical Python,topic_68,lesson_518,SESSION,40
+track_7,Tech Foundations,course_11,Practical Python,topic_68,lesson_519,SESSION,30
+track_7,Tech Foundations,course_11,Practical Python,topic_68,lesson_520,EXAM,15
+track_7,Tech Foundations,course_11,Practical Python,topic_68,lesson_521,SESSION,30
+track_7,Tech Foundations,course_11,Practical Python,topic_68,lesson_522,SESSION,40
+track_7,Tech Foundations,course_11,Practical Python,topic_68,lesson_523,SESSION,40
+track_7,Tech Foundations,course_11,Practical Python,topic_68,lesson_524,SESSION,40
+track_7,Tech Foundations,course_11,Practical Python,topic_68,lesson_525,SESSION,20
+track_7,Tech Foundations,course_11,Practical Python,topic_68,lesson_526,SESSION,40
+track_7,Tech Foundations,course_11,Practical Python,topic_68,lesson_527,SESSION,40
+track_7,Tech Foundations,course_11,Practical Python,topic_68,lesson_528,EXAM,30
+track_7,Tech Foundations,course_11,Practical Python,topic_68,lesson_529,EXAM,15
+track_7,Tech Foundations,course_11,Practical Python,topic_68,lesson_530,EXAM,15
+track_7,Tech Foundations,course_11,Practical Python,topic_68,lesson_531,SESSION,30
+track_7,Tech Foundations,course_11,Practical Python,topic_68,lesson_532,EXAM,20
+track_7,Tech Foundations,course_11,Practical Python,topic_68,lesson_533,SESSION,40
+track_7,Tech Foundations,course_11,Practical Python,topic_68,lesson_534,SESSION,30
+track_8,Masterclass with Srividya Pranavi,course_12,Srividya Pranavi,topic_69,lesson_535,SESSION,45
+track_9,Instruction Flows,course_13,Instruction Flows,topic_70,lesson_536,PRACTICE,5
+track_9,Instruction Flows,course_13,Instruction Flows,topic_70,lesson_537,SESSION,5
+track_9,Instruction Flows,course_13,Instruction Flows,topic_70,lesson_538,PRACTICE,5
+track_9,Instruction Flows,course_13,Instruction Flows,topic_70,lesson_539,PRACTICE,5
+track_9,Instruction Flows,course_13,Instruction Flows,topic_70,lesson_540,PRACTICE,5
+track_9,Instruction Flows,course_13,Instruction Flows,topic_70,lesson_541,EXAM,40
+track_9,Instruction Flows,course_13,Instruction Flows,topic_70,lesson_542,SESSION,5
+track_9,Instruction Flows,course_13,Instruction Flows,topic_70,lesson_543,SESSION,10
+track_9,Instruction Flows,course_13,Instruction Flows,topic_70,lesson_544,PRACTICE,5
+track_9,Instruction Flows,course_13,Instruction Flows,topic_70,lesson_545,SESSION,5
+track_9,Instruction Flows,course_13,Instruction Flows,topic_70,lesson_546,SESSION,10
+track_9,Instruction Flows,course_13,Instruction Flows,topic_70,lesson_547,PRACTICE,5
+track_9,Instruction Flows,course_13,Instruction Flows,topic_70,lesson_548,SESSION,10
+track_9,Instruction Flows,course_13,Instruction Flows,topic_71,lesson_549,PRACTICE,5
+track_9,Instruction Flows,course_13,Instruction Flows,topic_71,lesson_550,SESSION,5
+track_9,Instruction Flows,course_13,Instruction Flows,topic_71,lesson_551,EXAM,10
+track_9,Instruction Flows,course_13,Instruction Flows,topic_72,lesson_552,SESSION,8
+track_9,Instruction Flows,course_13,Instruction Flows,topic_72,lesson_553,PRACTICE,5
+track_9,Instruction Flows,course_13,Instruction Flows,topic_72,lesson_554,SESSION,5
+track_9,Instruction Flows,course_13,Instruction Flows,topic_72,lesson_555,PRACTICE,5
+track_9,Instruction Flows,course_13,Instruction Flows,topic_72,lesson_556,EXAM,15
+track_9,Instruction Flows,course_13,Instruction Flows,topic_73,lesson_557,SESSION,20
+track_9,Instruction Flows,course_13,Instruction Flows,topic_74,lesson_558,SESSION,10
+track_9,Instruction Flows,course_13,Instruction Flows,topic_74,lesson_559,PRACTICE,5
+track_9,Instruction Flows,course_13,Instruction Flows,topic_74,lesson_560,SESSION,5
+track_9,Instruction Flows,course_13,Instruction Flows,topic_74,lesson_561,SESSION,5
+track_9,Instruction Flows,course_13,Instruction Flows,topic_74,lesson_562,SESSION,5
+track_9,Instruction Flows,course_13,Instruction Flows,topic_74,lesson_563,PRACTICE,5
+track_9,Instruction Flows,course_13,Instruction Flows,topic_74,lesson_564,EXAM,20
+track_9,Instruction Flows,course_13,Instruction Flows,topic_74,lesson_565,SESSION,20
+track_9,Instruction Flows,course_13,Instruction Flows,topic_75,lesson_566,PRACTICE,7
+track_9,Instruction Flows,course_13,Instruction Flows,topic_75,lesson_567,EXAM,25
+track_9,Instruction Flows,course_13,Instruction Flows,topic_75,lesson_568,SESSION,12
+track_9,Instruction Flows,course_13,Instruction Flows,topic_75,lesson_569,SESSION,8
+track_9,Instruction Flows,course_13,Instruction Flows,topic_75,lesson_570,PRACTICE,5
+track_9,Instruction Flows,course_13,Instruction Flows,topic_76,lesson_571,EXAM,45
+track_9,Instruction Flows,course_13,Instruction Flows,topic_76,lesson_572,EXAM,45
+track_9,Instruction Flows,course_13,Instruction Flows,topic_77,lesson_573,PRACTICE,5
+track_9,Instruction Flows,course_13,Instruction Flows,topic_77,lesson_574,SESSION,10
+track_9,Instruction Flows,course_13,Instruction Flows,topic_77,lesson_575,EXAM,15
+track_9,Instruction Flows,course_13,Instruction Flows,topic_77,lesson_576,SESSION,8
+track_9,Instruction Flows,course_13,Instruction Flows,topic_77,lesson_577,PRACTICE,5
+track_9,Instruction Flows,course_13,Instruction Flows,topic_77,lesson_578,PRACTICE,5
+track_9,Instruction Flows,course_13,Instruction Flows,topic_77,lesson_579,SESSION,10
+track_9,Instruction Flows,course_13,Instruction Flows,topic_77,lesson_580,SESSION,5
+track_9,Instruction Flows,course_13,Instruction Flows,topic_77,lesson_581,PRACTICE,3
+track_5,Aptitude,course_14,Logical Reasoning,topic_78,lesson_582,PRACTICE,15
+track_5,Aptitude,course_14,Logical Reasoning,topic_78,lesson_583,SESSION,35
+track_5,Aptitude,course_14,Logical Reasoning,topic_79,lesson_584,PRACTICE,15
+track_5,Aptitude,course_14,Logical Reasoning,topic_79,lesson_585,SESSION,35
+track_5,Aptitude,course_14,Logical Reasoning,topic_80,lesson_586,SESSION,35
+track_5,Aptitude,course_14,Logical Reasoning,topic_80,lesson_587,PRACTICE,15
+track_5,Aptitude,course_14,Logical Reasoning,topic_81,lesson_588,PRACTICE,15
+track_5,Aptitude,course_14,Logical Reasoning,topic_81,lesson_589,SESSION,30
+track_5,Aptitude,course_14,Logical Reasoning,topic_82,lesson_590,SESSION,25
+track_5,Aptitude,course_14,Logical Reasoning,topic_82,lesson_591,PRACTICE,15
+track_5,Aptitude,course_14,Logical Reasoning,topic_83,lesson_592,PRACTICE,15
+track_5,Aptitude,course_14,Logical Reasoning,topic_83,lesson_593,SESSION,35
+track_10,AI-ML,course_15,Fundamentals of ML,topic_84,lesson_594,SESSION,26
+track_10,AI-ML,course_15,Fundamentals of ML,topic_84,lesson_595,SESSION,20
+track_10,AI-ML,course_15,Fundamentals of ML,topic_84,lesson_596,SESSION,24
+track_10,AI-ML,course_15,Fundamentals of ML,topic_84,lesson_597,EXAM,35
+track_10,AI-ML,course_15,Fundamentals of ML,topic_84,lesson_598,SESSION,37
+track_10,AI-ML,course_15,Fundamentals of ML,topic_84,lesson_599,SESSION,26
+track_10,AI-ML,course_15,Fundamentals of ML,topic_85,lesson_600,SESSION,50
+track_10,AI-ML,course_15,Fundamentals of ML,topic_85,lesson_601,EXAM,35
+track_10,AI-ML,course_15,Fundamentals of ML,topic_85,lesson_602,SESSION,45
+track_10,AI-ML,course_15,Fundamentals of ML,topic_85,lesson_603,EXAM,45
+track_10,AI-ML,course_15,Fundamentals of ML,topic_85,lesson_604,SESSION,55
+track_10,AI-ML,course_15,Fundamentals of ML,topic_86,lesson_605,SESSION,11
+track_10,AI-ML,course_15,Fundamentals of ML,topic_86,lesson_606,SESSION,34
+track_10,AI-ML,course_15,Fundamentals of ML,topic_86,lesson_607,SESSION,23
+track_10,AI-ML,course_15,Fundamentals of ML,topic_86,lesson_608,EXAM,35
+track_10,AI-ML,course_15,Fundamentals of ML,topic_86,lesson_609,SESSION,30
+track_10,AI-ML,course_15,Fundamentals of ML,topic_87,lesson_610,SESSION,60
+track_10,AI-ML,course_15,Fundamentals of ML,topic_87,lesson_611,SESSION,40
+track_10,AI-ML,course_15,Fundamentals of ML,topic_87,lesson_612,SESSION,30
+track_10,AI-ML,course_15,Fundamentals of ML,topic_87,lesson_613,SESSION,50
+track_10,AI-ML,course_15,Fundamentals of ML,topic_87,lesson_614,SESSION,30
+track_10,AI-ML,course_15,Fundamentals of ML,topic_87,lesson_615,SESSION,30
+track_10,AI-ML,course_15,Fundamentals of ML,topic_87,lesson_616,SESSION,40
+track_10,AI-ML,course_15,Fundamentals of ML,topic_87,lesson_617,EXAM,30
+track_10,AI-ML,course_15,Fundamentals of ML,topic_87,lesson_618,SESSION,30
+track_10,AI-ML,course_15,Fundamentals of ML,topic_87,lesson_619,EXAM,30
+track_10,AI-ML,course_15,Fundamentals of ML,topic_87,lesson_620,SESSION,40
+track_10,AI-ML,course_15,Fundamentals of ML,topic_87,lesson_621,SESSION,30
+track_10,AI-ML,course_15,Fundamentals of ML,topic_87,lesson_622,SESSION,30
+track_10,AI-ML,course_15,Fundamentals of ML,topic_87,lesson_623,SESSION,35
+track_10,AI-ML,course_15,Fundamentals of ML,topic_87,lesson_624,SESSION,10
+track_10,AI-ML,course_15,Fundamentals of ML,topic_88,lesson_625,SESSION,30
+track_10,AI-ML,course_15,Fundamentals of ML,topic_88,lesson_626,SESSION,50
+track_10,AI-ML,course_15,Fundamentals of ML,topic_88,lesson_627,PRACTICE,60
+track_10,AI-ML,course_15,Fundamentals of ML,topic_88,lesson_628,PRACTICE,10
+track_10,AI-ML,course_15,Fundamentals of ML,topic_88,lesson_629,SESSION,45
+track_10,AI-ML,course_15,Fundamentals of ML,topic_88,lesson_630,SESSION,55
+track_10,AI-ML,course_15,Fundamentals of ML,topic_88,lesson_631,SESSION,40
+track_10,AI-ML,course_15,Fundamentals of ML,topic_88,lesson_632,SESSION,55
+track_10,AI-ML,course_15,Fundamentals of ML,topic_89,lesson_633,SESSION,40
+track_10,AI-ML,course_15,Fundamentals of ML,topic_89,lesson_634,EXAM,30
+track_10,AI-ML,course_15,Fundamentals of ML,topic_89,lesson_635,SESSION,45
+track_10,AI-ML,course_15,Fundamentals of ML,topic_89,lesson_636,EXAM,30
+track_10,AI-ML,course_15,Fundamentals of ML,topic_89,lesson_637,SESSION,30
+track_10,AI-ML,course_15,Fundamentals of ML,topic_89,lesson_638,EXAM,30
+track_10,AI-ML,course_15,Fundamentals of ML,topic_89,lesson_639,SESSION,40
+track_10,AI-ML,course_15,Fundamentals of ML,topic_89,lesson_640,SESSION,15
+track_10,AI-ML,course_15,Fundamentals of ML,topic_89,lesson_641,SESSION,40
+track_10,AI-ML,course_15,Fundamentals of ML,topic_89,lesson_642,PRACTICE,30
+track_10,AI-ML,course_15,Fundamentals of ML,topic_89,lesson_643,EXAM,30
+track_10,AI-ML,course_15,Fundamentals of ML,topic_89,lesson_644,SESSION,50
+track_10,AI-ML,course_15,Fundamentals of ML,topic_90,lesson_645,EXAM,35
+track_10,AI-ML,course_15,Fundamentals of ML,topic_90,lesson_646,SESSION,70
+track_10,AI-ML,course_15,Fundamentals of ML,topic_90,lesson_647,SESSION,65
+track_10,AI-ML,course_15,Fundamentals of ML,topic_90,lesson_648,SESSION,55
+track_10,AI-ML,course_15,Fundamentals of ML,topic_91,lesson_649,PROJECT,60
+track_10,AI-ML,course_15,Fundamentals of ML,topic_91,lesson_650,SESSION,35
+track_10,AI-ML,course_15,Fundamentals of ML,topic_91,lesson_651,PROJECT,60
+track_10,AI-ML,course_15,Fundamentals of ML,topic_91,lesson_652,PROJECT,60
+track_10,AI-ML,course_15,Fundamentals of ML,topic_91,lesson_653,PROJECT,60
+track_10,AI-ML,course_15,Fundamentals of ML,topic_92,lesson_654,SESSION,5
+track_10,AI-ML,course_15,Fundamentals of ML,topic_92,lesson_655,SESSION,5
+track_10,AI-ML,course_15,Fundamentals of ML,topic_92,lesson_656,SESSION,10
+track_10,AI-ML,course_15,Fundamentals of ML,topic_93,lesson_657,SESSION,40
+track_10,AI-ML,course_15,Fundamentals of ML,topic_93,lesson_658,SESSION,50
+track_10,AI-ML,course_15,Fundamentals of ML,topic_93,lesson_659,SESSION,60
+track_10,AI-ML,course_15,Fundamentals of ML,topic_93,lesson_660,EXAM,30
+track_10,AI-ML,course_15,Fundamentals of ML,topic_93,lesson_661,SESSION,60
+track_10,AI-ML,course_15,Fundamentals of ML,topic_93,lesson_662,EXAM,30
+track_10,AI-ML,course_15,Fundamentals of ML,topic_93,lesson_663,EXAM,30
+track_10,AI-ML,course_15,Fundamentals of ML,topic_93,lesson_664,PRACTICE,40
+track_10,AI-ML,course_15,Fundamentals of ML,topic_93,lesson_665,SESSION,40
+track_10,AI-ML,course_15,Fundamentals of ML,topic_93,lesson_666,EXAM,30
+track_10,AI-ML,course_15,Fundamentals of ML,topic_94,lesson_667,SESSION,60
+track_10,AI-ML,course_15,Fundamentals of ML,topic_94,lesson_668,SESSION,45
+track_10,AI-ML,course_15,Fundamentals of ML,topic_94,lesson_669,EXAM,30
+track_10,AI-ML,course_15,Fundamentals of ML,topic_94,lesson_670,SESSION,50
+track_10,AI-ML,course_15,Fundamentals of ML,topic_95,lesson_671,SESSION,50
+track_10,AI-ML,course_15,Fundamentals of ML,topic_95,lesson_672,SESSION,40
+track_10,AI-ML,course_15,Fundamentals of ML,topic_95,lesson_673,EXAM,30
+track_10,AI-ML,course_15,Fundamentals of ML,topic_95,lesson_674,SESSION,45
+track_10,AI-ML,course_15,Fundamentals of ML,topic_95,lesson_675,SESSION,50
+track_10,AI-ML,course_15,Fundamentals of ML,topic_95,lesson_676,SESSION,55
+track_10,AI-ML,course_15,Fundamentals of ML,topic_95,lesson_677,EXAM,30
+track_10,AI-ML,course_15,Fundamentals of ML,topic_96,lesson_678,SESSION,40
+track_10,AI-ML,course_15,Fundamentals of ML,topic_96,lesson_679,EXAM,15
+track_10,AI-ML,course_15,Fundamentals of ML,topic_96,lesson_680,SESSION,45
+track_10,AI-ML,course_15,Fundamentals of ML,topic_96,lesson_681,SESSION,50
+track_10,AI-ML,course_15,Fundamentals of ML,topic_96,lesson_682,SESSION,40
+track_10,AI-ML,course_15,Fundamentals of ML,topic_96,lesson_683,EXAM,20
+track_10,AI-ML,course_15,Fundamentals of ML,topic_96,lesson_684,EXAM,15
+track_10,AI-ML,course_15,Fundamentals of ML,topic_96,lesson_685,EXAM,20
+track_10,AI-ML,course_15,Fundamentals of ML,topic_96,lesson_686,SESSION,40
+track_10,AI-ML,course_15,Fundamentals of ML,topic_96,lesson_687,EXAM,10
+track_10,AI-ML,course_15,Fundamentals of ML,topic_96,lesson_688,EXAM,15
+track_10,AI-ML,course_15,Fundamentals of ML,topic_96,lesson_689,SESSION,40
+track_10,AI-ML,course_15,Fundamentals of ML,topic_97,lesson_690,SESSION,50
+track_10,AI-ML,course_15,Fundamentals of ML,topic_97,lesson_691,EXAM,30
+track_10,AI-ML,course_15,Fundamentals of ML,topic_97,lesson_692,EXAM,30
+track_10,AI-ML,course_15,Fundamentals of ML,topic_97,lesson_693,SESSION,60
+track_10,AI-ML,course_15,Fundamentals of ML,topic_97,lesson_694,EXAM,30
+track_10,AI-ML,course_15,Fundamentals of ML,topic_97,lesson_695,SESSION,55
+track_10,AI-ML,course_15,Fundamentals of ML,topic_97,lesson_696,SESSION,30
+track_10,AI-ML,course_15,Fundamentals of ML,topic_97,lesson_697,EXAM,40
+track_10,AI-ML,course_15,Fundamentals of ML,topic_97,lesson_698,SESSION,55
+track_10,AI-ML,course_15,Fundamentals of ML,topic_97,lesson_699,EXAM,30
+track_10,AI-ML,course_15,Fundamentals of ML,topic_97,lesson_700,SESSION,50
+track_10,AI-ML,course_15,Fundamentals of ML,topic_98,lesson_701,SESSION,40
+track_10,AI-ML,course_15,Fundamentals of ML,topic_98,lesson_702,SESSION,40
+track_10,AI-ML,course_15,Fundamentals of ML,topic_98,lesson_703,EXAM,30
+track_10,AI-ML,course_15,Fundamentals of ML,topic_98,lesson_704,SESSION,45
+track_10,AI-ML,course_15,Fundamentals of ML,topic_98,lesson_705,SESSION,40
+track_10,AI-ML,course_15,Fundamentals of ML,topic_98,lesson_706,SESSION,25
+track_10,AI-ML,course_15,Fundamentals of ML,topic_98,lesson_707,EXAM,30
+track_10,AI-ML,course_15,Fundamentals of ML,topic_98,lesson_708,SESSION,40
+track_10,AI-ML,course_15,Fundamentals of ML,topic_98,lesson_709,EXAM,30
+track_10,AI-ML,course_15,Fundamentals of ML,topic_98,lesson_710,EXAM,30
+track_10,AI-ML,course_15,Fundamentals of ML,topic_98,lesson_711,SESSION,50
+track_10,AI-ML,course_15,Fundamentals of ML,topic_98,lesson_712,SESSION,35
+track_10,AI-ML,course_15,Fundamentals of ML,topic_99,lesson_713,SESSION,30
+track_10,AI-ML,course_15,Fundamentals of ML,topic_99,lesson_714,SESSION,30
+track_10,AI-ML,course_15,Fundamentals of ML,topic_99,lesson_715,SESSION,30
+track_10,AI-ML,course_15,Fundamentals of ML,topic_99,lesson_716,SESSION,30
+track_10,AI-ML,course_15,Fundamentals of ML,topic_99,lesson_717,SESSION,30
+track_10,AI-ML,course_15,Fundamentals of ML,topic_99,lesson_718,SESSION,30
+track_10,AI-ML,course_15,Fundamentals of ML,topic_100,lesson_719,SESSION,55
+track_10,AI-ML,course_15,Fundamentals of ML,topic_100,lesson_720,SESSION,50
+track_10,AI-ML,course_15,Fundamentals of ML,topic_100,lesson_721,SESSION,40
+track_10,AI-ML,course_15,Fundamentals of ML,topic_100,lesson_722,SESSION,45
+track_10,AI-ML,course_15,Fundamentals of ML,topic_100,lesson_723,EXAM,30
+track_10,AI-ML,course_15,Fundamentals of ML,topic_100,lesson_724,EXAM,30
+track_10,AI-ML,course_15,Fundamentals of ML,topic_100,lesson_725,SESSION,40
+track_10,AI-ML,course_15,Fundamentals of ML,topic_100,lesson_726,EXAM,30
+track_10,AI-ML,course_15,Fundamentals of ML,topic_101,lesson_727,SESSION,55
+track_10,AI-ML,course_15,Fundamentals of ML,topic_101,lesson_728,SESSION,75
+track_10,AI-ML,course_15,Fundamentals of ML,topic_102,lesson_729,EXAM,40
+track_10,AI-ML,course_15,Fundamentals of ML,topic_102,lesson_730,EXAM,30
+track_10,AI-ML,course_15,Fundamentals of ML,topic_102,lesson_731,EXAM,30
+track_10,AI-ML,course_15,Fundamentals of ML,topic_102,lesson_732,EXAM,40
+track_10,AI-ML,course_15,Fundamentals of ML,topic_102,lesson_733,EXAM,30
+track_10,AI-ML,course_15,Fundamentals of ML,topic_102,lesson_734,EXAM,30
+track_10,AI-ML,course_15,Fundamentals of ML,topic_102,lesson_735,EXAM,30
+track_10,AI-ML,course_15,Fundamentals of ML,topic_102,lesson_736,EXAM,30
+track_10,AI-ML,course_15,Fundamentals of ML,topic_103,lesson_737,PRACTICE,40
+track_10,AI-ML,course_15,Fundamentals of ML,topic_103,lesson_738,PRACTICE,40
+track_10,AI-ML,course_15,Fundamentals of ML,topic_103,lesson_739,SESSION,15
+track_10,AI-ML,course_15,Fundamentals of ML,topic_103,lesson_740,SESSION,55
+track_10,AI-ML,course_15,Fundamentals of ML,topic_103,lesson_741,PRACTICE,30
+track_10,AI-ML,course_15,Fundamentals of ML,topic_103,lesson_742,SESSION,20
+track_10,AI-ML,course_15,Fundamentals of ML,topic_104,lesson_743,SESSION,45
+track_10,AI-ML,course_15,Fundamentals of ML,topic_104,lesson_744,SESSION,30
+track_10,AI-ML,course_15,Fundamentals of ML,topic_104,lesson_745,SESSION,40
+track_10,AI-ML,course_15,Fundamentals of ML,topic_104,lesson_746,SESSION,50
+track_10,AI-ML,course_15,Fundamentals of ML,topic_104,lesson_747,PRACTICE,30
+track_10,AI-ML,course_15,Fundamentals of ML,topic_104,lesson_748,SESSION,30
+track_10,AI-ML,course_15,Fundamentals of ML,topic_104,lesson_749,EXAM,30
+track_10,AI-ML,course_15,Fundamentals of ML,topic_104,lesson_750,EXAM,30
+track_10,AI-ML,course_15,Fundamentals of ML,topic_105,lesson_751,SESSION,60
+track_10,AI-ML,course_15,Fundamentals of ML,topic_105,lesson_752,SESSION,60
+track_10,AI-ML,course_15,Fundamentals of ML,topic_105,lesson_753,SESSION,65
+track_10,AI-ML,course_15,Fundamentals of ML,topic_105,lesson_754,SESSION,70
+track_10,AI-ML,course_15,Fundamentals of ML,topic_105,lesson_755,SESSION,30
+track_10,AI-ML,course_15,Fundamentals of ML,topic_105,lesson_756,SESSION,70
+track_10,AI-ML,course_15,Fundamentals of ML,topic_105,lesson_757,SESSION,35
+track_10,AI-ML,course_15,Fundamentals of ML,topic_105,lesson_758,SESSION,70
+track_10,AI-ML,course_15,Fundamentals of ML,topic_105,lesson_759,EXAM,30
+track_10,AI-ML,course_15,Fundamentals of ML,topic_105,lesson_760,SESSION,40
+track_10,AI-ML,course_15,Fundamentals of ML,topic_106,lesson_761,EXAM,20
+track_10,AI-ML,course_15,Fundamentals of ML,topic_106,lesson_762,SESSION,90
+track_10,AI-ML,course_15,Fundamentals of ML,topic_106,lesson_763,SESSION,5
+track_10,AI-ML,course_15,Fundamentals of ML,topic_107,lesson_764,EXAM,30
+track_10,AI-ML,course_15,Fundamentals of ML,topic_107,lesson_765,SESSION,60
+track_10,AI-ML,course_15,Fundamentals of ML,topic_107,lesson_766,SESSION,40
+track_10,AI-ML,course_15,Fundamentals of ML,topic_107,lesson_767,EXAM,30
+track_10,AI-ML,course_15,Fundamentals of ML,topic_107,lesson_768,EXAM,30
+track_10,AI-ML,course_15,Fundamentals of ML,topic_107,lesson_769,SESSION,50
+track_10,AI-ML,course_15,Fundamentals of ML,topic_107,lesson_770,SESSION,30
+track_10,AI-ML,course_15,Fundamentals of ML,topic_107,lesson_771,EXAM,30
+track_10,AI-ML,course_15,Fundamentals of ML,topic_107,lesson_772,SESSION,45
+track_11,Understanding 5G,course_16,MASTERCLASS SERIES,topic_108,lesson_773,SESSION,50
+track_12,XPM 4.0 Fundamentals,course_17,Setting Priorities,topic_109,lesson_774,SESSION,40
+track_12,XPM 4.0 Fundamentals,course_17,Setting Priorities,topic_110,lesson_775,EXAM,10
+track_12,XPM 4.0 Fundamentals,course_17,Setting Priorities,topic_110,lesson_776,EXAM,10
+track_12,XPM 4.0 Fundamentals,course_17,Setting Priorities,topic_110,lesson_777,SESSION,35
+track_12,XPM 4.0 Fundamentals,course_17,Setting Priorities,topic_110,lesson_778,EXAM,10
+track_12,XPM 4.0 Fundamentals,course_17,Setting Priorities,topic_111,lesson_779,EXAM,30
+track_12,XPM 4.0 Fundamentals,course_17,Setting Priorities,topic_111,lesson_780,EXAM,30
+track_12,XPM 4.0 Fundamentals,course_17,Setting Priorities,topic_111,lesson_781,EXAM,30
+track_12,XPM 4.0 Fundamentals,course_17,Setting Priorities,topic_111,lesson_782,SESSION,70
+track_12,XPM 4.0 Fundamentals,course_17,Setting Priorities,topic_111,lesson_783,EXAM,30
+track_12,XPM 4.0 Fundamentals,course_17,Setting Priorities,topic_111,lesson_784,EXAM,30
+track_12,XPM 4.0 Fundamentals,course_17,Setting Priorities,topic_111,lesson_785,EXAM,30
+track_12,XPM 4.0 Fundamentals,course_17,Setting Priorities,topic_112,lesson_786,EXAM,10
+track_12,XPM 4.0 Fundamentals,course_17,Setting Priorities,topic_112,lesson_787,EXAM,10
+track_12,XPM 4.0 Fundamentals,course_17,Setting Priorities,topic_112,lesson_788,SESSION,40
+track_12,XPM 4.0 Fundamentals,course_17,Setting Priorities,topic_112,lesson_789,EXAM,10
+track_12,XPM 4.0 Fundamentals,course_17,Setting Priorities,topic_113,lesson_790,SESSION,50
+track_12,XPM 4.0 Fundamentals,course_17,Setting Priorities,topic_114,lesson_791,SESSION,35
+track_12,XPM 4.0 Fundamentals,course_17,Setting Priorities,topic_115,lesson_792,SESSION,35
+track_12,XPM 4.0 Fundamentals,course_17,Setting Priorities,topic_115,lesson_793,EXAM,10
+track_12,XPM 4.0 Fundamentals,course_17,Setting Priorities,topic_115,lesson_794,EXAM,10
+track_12,XPM 4.0 Fundamentals,course_17,Setting Priorities,topic_115,lesson_795,EXAM,10
+track_5,Aptitude,course_18,Test Based Learning,topic_116,lesson_796,SESSION,60
+track_5,Aptitude,course_18,Test Based Learning,topic_116,lesson_797,PRACTICE,30
+track_5,Aptitude,course_18,Test Based Learning,topic_116,lesson_798,PRACTICE,30
+track_5,Aptitude,course_18,Test Based Learning,topic_116,lesson_799,PRACTICE,30
+track_5,Aptitude,course_18,Test Based Learning,topic_116,lesson_800,PRACTICE,30
+track_5,Aptitude,course_18,Test Based Learning,topic_116,lesson_801,SESSION,45
+track_5,Aptitude,course_18,Test Based Learning,topic_116,lesson_802,EXAM,30
+track_5,Aptitude,course_18,Test Based Learning,topic_116,lesson_803,PRACTICE,30
+track_5,Aptitude,course_18,Test Based Learning,topic_116,lesson_804,EXAM,30
+track_5,Aptitude,course_18,Test Based Learning,topic_116,lesson_805,SESSION,50
+track_5,Aptitude,course_18,Test Based Learning,topic_116,lesson_806,EXAM,30
+track_5,Aptitude,course_18,Test Based Learning,topic_116,lesson_807,PRACTICE,30
+track_5,Aptitude,course_18,Test Based Learning,topic_116,lesson_808,PRACTICE,30
+track_5,Aptitude,course_18,Test Based Learning,topic_116,lesson_809,SESSION,30
+track_5,Aptitude,course_18,Test Based Learning,topic_116,lesson_810,SESSION,30
+track_5,Aptitude,course_18,Test Based Learning,topic_116,lesson_811,SESSION,40
+track_5,Aptitude,course_18,Test Based Learning,topic_116,lesson_812,EXAM,30
+track_5,Aptitude,course_18,Test Based Learning,topic_116,lesson_813,EXAM,30
+track_5,Aptitude,course_18,Test Based Learning,topic_116,lesson_814,SESSION,60
+track_5,Aptitude,course_18,Test Based Learning,topic_116,lesson_815,PRACTICE,30
+track_5,Aptitude,course_18,Test Based Learning,topic_116,lesson_816,EXAM,30
+track_5,Aptitude,course_18,Test Based Learning,topic_116,lesson_817,SESSION,45
+track_5,Aptitude,course_18,Test Based Learning,topic_116,lesson_818,SESSION,50
+track_5,Aptitude,course_18,Test Based Learning,topic_116,lesson_819,EXAM,30
+track_5,Aptitude,course_18,Test Based Learning,topic_116,lesson_820,SESSION,50
+track_5,Aptitude,course_18,Test Based Learning,topic_116,lesson_821,EXAM,30
+track_5,Aptitude,course_18,Test Based Learning,topic_117,lesson_822,EXAM,60
+track_5,Aptitude,course_18,Test Based Learning,topic_118,lesson_823,SESSION,60
+track_5,Aptitude,course_18,Test Based Learning,topic_118,lesson_824,EXAM,30
+track_5,Aptitude,course_18,Test Based Learning,topic_118,lesson_825,PRACTICE,15
+track_5,Aptitude,course_18,Test Based Learning,topic_118,lesson_826,SESSION,30
+track_5,Aptitude,course_18,Test Based Learning,topic_118,lesson_827,EXAM,30
+track_5,Aptitude,course_18,Test Based Learning,topic_118,lesson_828,EXAM,30
+track_5,Aptitude,course_18,Test Based Learning,topic_118,lesson_829,EXAM,35
+track_5,Aptitude,course_18,Test Based Learning,topic_118,lesson_830,SESSION,60
+track_5,Aptitude,course_18,Test Based Learning,topic_118,lesson_831,PRACTICE,15
+track_5,Aptitude,course_18,Test Based Learning,topic_118,lesson_832,EXAM,30
+track_5,Aptitude,course_18,Test Based Learning,topic_118,lesson_833,SESSION,30
+track_5,Aptitude,course_18,Test Based Learning,topic_118,lesson_834,PRACTICE,30
+track_5,Aptitude,course_18,Test Based Learning,topic_118,lesson_835,PRACTICE,30
+track_5,Aptitude,course_18,Test Based Learning,topic_118,lesson_836,EXAM,30
+track_5,Aptitude,course_18,Test Based Learning,topic_118,lesson_837,SESSION,60
+track_5,Aptitude,course_18,Test Based Learning,topic_118,lesson_838,SESSION,60
+track_5,Aptitude,course_18,Test Based Learning,topic_118,lesson_839,SESSION,60
+track_5,Aptitude,course_18,Test Based Learning,topic_118,lesson_840,EXAM,30
+track_5,Aptitude,course_18,Test Based Learning,topic_118,lesson_841,SESSION,60
+track_5,Aptitude,course_18,Test Based Learning,topic_118,lesson_842,EXAM,30
+track_5,Aptitude,course_18,Test Based Learning,topic_118,lesson_843,SESSION,60
+track_5,Aptitude,course_18,Test Based Learning,topic_118,lesson_844,SESSION,30
+track_5,Aptitude,course_18,Test Based Learning,topic_118,lesson_845,EXAM,90
+track_13,Self Assessment,course_19,Test Your Knowledge,topic_119,lesson_846,PRACTICE,120
+track_13,Self Assessment,course_19,Test Your Knowledge,topic_119,lesson_847,PRACTICE,120
+track_13,Self Assessment,course_19,Test Your Knowledge,topic_119,lesson_848,PRACTICE,120
+track_13,Self Assessment,course_19,Test Your Knowledge,topic_120,lesson_849,EXAM,120
+track_13,Self Assessment,course_19,Test Your Knowledge,topic_120,lesson_850,EXAM,120
+track_13,Self Assessment,course_19,Test Your Knowledge,topic_120,lesson_851,EXAM,120
+track_13,Self Assessment,course_19,Test Your Knowledge,topic_121,lesson_852,EXAM,45
+track_13,Self Assessment,course_19,Test Your Knowledge,topic_121,lesson_853,EXAM,45
+track_13,Self Assessment,course_19,Test Your Knowledge,topic_121,lesson_854,EXAM,45
+track_13,Self Assessment,course_19,Test Your Knowledge,topic_122,lesson_855,EXAM,30
+track_13,Self Assessment,course_19,Test Your Knowledge,topic_123,lesson_856,EXAM,45
+track_14,CCBP 4.0 Academy - Intro,course_20,CCBP 4.0 Introduction,topic_124,lesson_857,SESSION,50
+track_14,CCBP 4.0 Academy - Intro,course_20,CCBP 4.0 Introduction,topic_124,lesson_858,PRACTICE,10
+track_14,CCBP 4.0 Academy - Intro,course_20,CCBP 4.0 Introduction,topic_125,lesson_859,SESSION,45
+track_14,CCBP 4.0 Academy - Intro,course_20,CCBP 4.0 Introduction,topic_125,lesson_860,SESSION,60
+track_14,CCBP 4.0 Academy - Intro,course_20,CCBP 4.0 Introduction,topic_125,lesson_861,SESSION,50
+track_14,CCBP 4.0 Academy - Intro,course_20,CCBP 4.0 Introduction,topic_126,lesson_862,PRACTICE,5
+track_14,CCBP 4.0 Academy - Intro,course_20,CCBP 4.0 Introduction,topic_126,lesson_863,SESSION,60
+track_14,CCBP 4.0 Academy - Intro,course_20,CCBP 4.0 Introduction,topic_127,lesson_864,PRACTICE,10
+track_14,CCBP 4.0 Academy - Intro,course_20,CCBP 4.0 Introduction,topic_127,lesson_865,SESSION,105
+track_14,CCBP 4.0 Academy - Intro,course_20,CCBP 4.0 Introduction,topic_128,lesson_866,SESSION,50
+track_14,CCBP 4.0 Academy - Intro,course_20,CCBP 4.0 Introduction,topic_128,lesson_867,PRACTICE,5
+track_14,CCBP 4.0 Academy - Intro,course_20,CCBP 4.0 Introduction,topic_129,lesson_868,SESSION,60
+track_14,CCBP 4.0 Academy - Intro,course_20,CCBP 4.0 Introduction,topic_129,lesson_869,PRACTICE,5
+track_14,CCBP 4.0 Academy - Intro,course_20,CCBP 4.0 Introduction,topic_130,lesson_870,PRACTICE,10
+track_14,CCBP 4.0 Academy - Intro,course_20,CCBP 4.0 Introduction,topic_130,lesson_871,SESSION,50
+track_7,Tech Foundations,course_21,Developer Foundations,topic_131,lesson_872,PRACTICE,10
+track_7,Tech Foundations,course_21,Developer Foundations,topic_131,lesson_873,SESSION,45
+track_7,Tech Foundations,course_21,Developer Foundations,topic_131,lesson_874,SESSION,40
+track_7,Tech Foundations,course_21,Developer Foundations,topic_131,lesson_875,SESSION,10
+track_7,Tech Foundations,course_21,Developer Foundations,topic_131,lesson_876,SESSION,10
+track_7,Tech Foundations,course_21,Developer Foundations,topic_131,lesson_877,PRACTICE,10
+track_7,Tech Foundations,course_21,Developer Foundations,topic_132,lesson_878,SESSION,10
+track_7,Tech Foundations,course_21,Developer Foundations,topic_132,lesson_879,PRACTICE,10
+track_7,Tech Foundations,course_21,Developer Foundations,topic_132,lesson_880,SESSION,10
+track_7,Tech Foundations,course_21,Developer Foundations,topic_132,lesson_881,SESSION,10
+track_7,Tech Foundations,course_21,Developer Foundations,topic_132,lesson_882,SESSION,40
+track_7,Tech Foundations,course_21,Developer Foundations,topic_132,lesson_883,SESSION,10
+track_7,Tech Foundations,course_21,Developer Foundations,topic_132,lesson_884,SESSION,10
+track_7,Tech Foundations,course_21,Developer Foundations,topic_132,lesson_885,SESSION,10
+track_7,Tech Foundations,course_21,Developer Foundations,topic_132,lesson_886,PRACTICE,15
+track_7,Tech Foundations,course_21,Developer Foundations,topic_132,lesson_887,SESSION,10
+track_7,Tech Foundations,course_21,Developer Foundations,topic_132,lesson_888,SESSION,45
+track_7,Tech Foundations,course_21,Developer Foundations,topic_132,lesson_889,SESSION,5

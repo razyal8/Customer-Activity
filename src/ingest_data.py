@@ -97,6 +97,7 @@ def ingest_all_data(session):
 
 # Ingest data from CSV files
 
+'TO DELETE'
 # ingest_data('user_lessons',clean_transform_user_lessons_data,'user_activity.csv')
 # select_data_query_user_lessons = "SELECT * FROM user_lessons;"
 # result = session.execute(select_data_query_user_lessons)

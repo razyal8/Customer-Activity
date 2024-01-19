@@ -1,6 +1,7 @@
 # # queries.py
 
 def top_performing_users(session):
+    
     print("\n1. Min completion percentage of each type of lessons")
     min_performing_users_lessons_type = """
         SELECT user_id, lesson_type, MIN(overall_completion_percentage) AS completion_percentage
@@ -123,3 +124,38 @@ def top_performing_users(session):
     result_avg_rating_feedback = session.execute(query_average_rating_per_lesson)
     for row in result_avg_rating_feedback:
         print(row)
+
+    print('\n11. Get users exmas Activities')
+    query_exams_activities = '''
+        SELECT *
+        FROM user_activity
+        WHERE lesson_type = 'EXAM'
+        ALLOW FILTERING;
+    '''    
+    result_query_exams_activities = session.execute(query_exams_activities)
+    for row in result_query_exams_activities:
+        print(row)
+
+    print('\n12. Get SUM lesson duration')
+    query_SUM_lesson_duration_in_mins = '''
+        SELECT track_id, course_id, topic_id , SUM(lesson_duration_in_mins) AS total_duration
+        FROM learning_resources
+        GROUP BY track_id, course_id, topic_id
+    '''    
+    result_query_SUM_lesson_duration_in_mins = session.execute(query_SUM_lesson_duration_in_mins)
+    for row in result_query_SUM_lesson_duration_in_mins:
+        print(row)  
+
+    print('\n13. Count number of discussions that a each mentor was involved')
+    query_mentors = '''
+        SELECT user_id , COUNT(user_role) AS resolved_discussions_count
+        FROM discussion_comments
+        WHERE user_role = 'MENTOR'
+        GROUP BY user_id
+        ALLOW FILTERING
+    '''
+
+    result_mentors = session.execute(query_mentors)
+    for row in result_mentors:
+        print(row)
+  

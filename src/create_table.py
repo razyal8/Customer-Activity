@@ -97,7 +97,7 @@ def create_table(session):
             comment_id INT,
             user_id INT,
             user_role TEXT,
-            PRIMARY KEY ((comment_id), creation_datetime)
+            PRIMARY KEY ((user_id), creation_datetime)
         ) WITH CLUSTERING ORDER BY (creation_datetime DESC)
     '''
 

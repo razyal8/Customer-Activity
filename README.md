@@ -39,27 +39,6 @@ This will create the keyspace, tables, ingest data, perform queries, and analyze
 
 ### Project Structure
 
-#### src folder 
-  index.py: Main script to run the entire project.
-
-  create_keyspace.py: Create keyspace and connect to Cassandra.
-
-  create_table.py: Create tables in Cassandra.
-
-  ingest_data.py: Ingest data into Cassandra tables from CSV files.
-
-  queries.py: Contains various Cassandra queries.
-
-  data_analysis.py: Perform data analysis and visualization.
-
-#### data folder
-  Folder containing CSV and CQL files.
-
-#### cql queries file
-#### tables
-
-## Project Structure
-
 ```plaintext
 /src
 │

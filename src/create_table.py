@@ -56,7 +56,7 @@ def create_table(session):
             lesson_type TEXT,
             lesson_duration INT,
             lesson_duration_in_mins INT,
-            PRIMARY KEY ((track_id, course_id, topic_id), lesson_id)
+            PRIMARY KEY ((track_id), course_id, topic_id, lesson_id)
         )
     '''
 

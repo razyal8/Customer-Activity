@@ -46,9 +46,9 @@ def cql_queries(session):
         
     print('\n4. Find the average lesson duration for each track')
     query_avg_lesson_duration_per_track = '''
-        SELECT track_id, course_id, topic_id, AVG(lesson_duration_in_mins) AS avg_duration
+        SELECT track_id, AVG(lesson_duration_in_mins) AS avg_duration
         FROM learning_resources
-        GROUP BY track_id, course_id, topic_id
+        GROUP BY track_id
     '''
 
     result_avg_lesson_duration_per_track = session.execute(query_avg_lesson_duration_per_track)
@@ -67,23 +67,23 @@ def cql_queries(session):
     for row in result_lesson_type_count:
         print(row)
 
-    print('\n6. Find the average lesson duration for each track')
+    print('\n6. Find the max lesson duration for each track')
     query_longest_lesson_per_type = '''
-        SELECT track_id, course_id, topic_id, MAX(lesson_duration_in_mins) AS max_duration
+        SELECT track_id, MAX(lesson_duration_in_mins) AS max_duration
         FROM learning_resources
-        GROUP BY track_id, course_id, topic_id
+        GROUP BY track_id
     '''
 
     result_longest_lesson_per_type = session.execute(query_longest_lesson_per_type)
     for row in result_longest_lesson_per_type:
         print(row)
 
-    # Count the number lesson for each learning resource
-    print('\n7. Count the number lesson for each learning resource')
+    # Count the number lesson for each track
+    print('\n7. Count the number lesson for each track')
     query_number_of_lesson_per_type = '''
-        SELECT track_id, course_id, topic_id, COUNT(*) AS count_resource
+        SELECT track_id, COUNT(*) AS count_resource
         FROM learning_resources
-        GROUP BY track_id, course_id, topic_id
+        GROUP BY track_id
     '''
 
     result_query_number_of_lesson_per_type = session.execute(query_number_of_lesson_per_type)
@@ -118,13 +118,13 @@ def cql_queries(session):
     query_average_rating_per_lesson = '''
         SELECT lesson_id, AVG(rating) AS average_rating
         FROM feedback
-        GROUP BY lesson_id;
+        GROUP BY lesson_id
     '''    
     result_avg_rating_feedback = session.execute(query_average_rating_per_lesson)
     for row in result_avg_rating_feedback:
         print(row)
 
-    print('\n11. Get users exmas Activities')
+    print('\n11. Get users exams Activities')
     query_exams_activities = '''
         SELECT *
         FROM user_activity
@@ -135,11 +135,11 @@ def cql_queries(session):
     for row in result_query_exams_activities:
         print(row)
 
-    print('\n12. Get SUM lesson duration')
+    print('\n12. Get SUM lesson duration per track')
     query_SUM_lesson_duration_in_mins = '''
-        SELECT track_id, course_id, topic_id , SUM(lesson_duration_in_mins) AS total_duration
+        SELECT track_id, SUM(lesson_duration_in_mins) AS total_duration
         FROM learning_resources
-        GROUP BY track_id, course_id, topic_id
+        GROUP BY track_id
     '''    
     result_query_SUM_lesson_duration_in_mins = session.execute(query_SUM_lesson_duration_in_mins)
     for row in result_query_SUM_lesson_duration_in_mins:

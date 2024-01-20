@@ -101,12 +101,12 @@ def create_table(session):
         ) WITH CLUSTERING ORDER BY (creation_datetime DESC)
     '''
 
-    session.execute(user_activity_table)
     session.execute(users_table)
-    session.execute(create_user_lessons)
-    session.execute(create_learning_resources)
     session.execute(create_feedback)
     session.execute(create_discussions)
+    session.execute(user_activity_table)
+    session.execute(create_user_lessons)
+    session.execute(create_learning_resources)
     session.execute(create_discussion_comments)
 
     print("\nFinsh to create tables")

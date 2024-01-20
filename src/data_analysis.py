@@ -1,7 +1,8 @@
 import pandas as pd
 import matplotlib.pyplot as plt
-from prettytable import PrettyTable
+
 from tabulate import tabulate
+from prettytable import PrettyTable
 
 
 def Users_Each_City(session):
@@ -125,7 +126,6 @@ def count_discussions_by_mentor(session):
         print("No discussions found for any mentor.")
         return
 
-    # Plot a bar chart
     plt.bar(mentors, discussions_count)
     plt.xlabel('Mentor ID')
     plt.ylabel('Number of Discussions')

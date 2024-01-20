@@ -1,4 +1,3 @@
-# create_keyspace.py
 
 from cassandra.cluster import Cluster
 

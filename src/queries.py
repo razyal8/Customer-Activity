@@ -1,6 +1,5 @@
-# # queries.py
 
-def top_performing_users(session):
+def cql_queries(session):
     
     print("\n1. Min completion percentage of each type of lessons")
     min_performing_users_lessons_type = """

@@ -23,6 +23,22 @@ def Users_Each_City(session):
     plt.show()
 
 
+def lesson_type_percentage_taken(session):
+    print('\n Global Lesson Type Percentage Taken')
+    query_lesson_type_count = '''
+        SELECT lesson_type, COUNT(lesson_id) AS lesson_count
+        FROM user_activity
+        GROUP BY lesson_type
+    '''
+
+    result_lesson_type_count = session.execute(query_lesson_type_count)
+    df_lesson_type_count = pd.DataFrame(result_lesson_type_count, columns=['lesson_type', 'lesson_count'])
+
+    plt.pie(df_lesson_type_count['lesson_count'], labels=df_lesson_type_count['lesson_type'], autopct='%1.1f%%', startangle=90)
+    plt.title('Enrollment Percentage of Each Lesson Type')
+    plt.axis('equal') 
+    plt.show()  
+
 def avg_completion_percentage(session):
     print('\n Average Completion Percentage of Each Lesson Type')
     avg_performing_lesson_query = """
@@ -34,11 +50,12 @@ def avg_completion_percentage(session):
     result_avg_performing = session.execute(avg_performing_lesson_query)
     df_avg_performing = pd.DataFrame(result_avg_performing, columns=['lesson_type', 'completion_percentage'])
 
-    plt.pie(df_avg_performing['completion_percentage'], labels=df_avg_performing['lesson_type'], autopct='%1.1f%%', startangle=90)
-    plt.title('Average Completion Percentage of Each Lesson Type')
-    plt.axis('equal') 
-    plt.show()  
-
+    for _, (lesson_type, completion_percentage) in df_avg_performing.iterrows():
+        plt.figure()  
+        plt.pie([completion_percentage, 100 - completion_percentage], labels=['Completed', 'Not Completed'], autopct='%1.1f%%', startangle=90)
+        plt.title(f'Completion Percentage for {lesson_type}')
+        plt.axis('equal') 
+        plt.show()  
 
 def get_sorted_user_count_by_city(session):
     print('\n Sort the list of number of users from each city')
@@ -140,6 +157,7 @@ def count_discussions_by_mentor(session):
 
 def data_analysis(session): 
     Users_Each_City(session)
+    lesson_type_percentage_taken(session)
     avg_completion_percentage(session)
     get_sorted_user_count_by_city(session)
     calculate_total_lesson_duration(session)
@@ -147,7 +165,3 @@ def data_analysis(session):
     count_discussions_by_mentor(session)
 
     
-
-
-
-

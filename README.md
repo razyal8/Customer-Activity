@@ -32,24 +32,49 @@ cd Customer-Activity
 2. Run the main script:
 
 ```bash
-python main.py
+python src/index.py
 ```
 
 This will create the keyspace, tables, ingest data, perform queries, and analyze the data and create the plots.
 
 ### Project Structure
 
-main.py: Main script to run the entire project.
+#### src folder 
+  index.py: Main script to run the entire project.
 
-create_keyspace.py: Create keyspace and connect to Cassandra.
+  create_keyspace.py: Create keyspace and connect to Cassandra.
 
-create_table.py: Create tables in Cassandra.
+  create_table.py: Create tables in Cassandra.
 
-ingest_data.py: Ingest data into Cassandra tables from CSV files.
+  ingest_data.py: Ingest data into Cassandra tables from CSV files.
 
-queries.py: Contains various Cassandra queries.
+  queries.py: Contains various Cassandra queries.
 
-data_analysis.py: Perform data analysis and visualization.
+  data_analysis.py: Perform data analysis and visualization.
 
-data/: Folder containing CSV and CQL files.
+#### data folder
+  Folder containing CSV and CQL files.
+
+#### cql queries file
+#### tables
+
+## Project Structure
+
+```plaintext
+/src
+│
+├── index.py                  # Main script to run the entire project
+├── create_keyspace.py        # Script to create keyspace and connect to Cassandra
+├── create_table.py           # Script to create tables in Cassandra
+├── ingest_data.py            # Script to ingest data into Cassandra tables from CSV files
+├── queries.py                # Contains various Cassandra queries
+└── data_analysis.py          # Script to perform data analysis and visualization
+/data
+│
+└── CSV files                 # containing file for ingeset 
+│
+├── CQL queries               # file containing CQL queries
+│
+└── tables.py                 # Python file containing table definitions
+
 

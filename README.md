@@ -25,7 +25,7 @@ pip install cassandra-driver pandas matplotlib tabulate prettytable
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/Customer-Activity.git
+git clone https://github.com/razyal8/Customer-Activity.git
 cd Customer-Activity
 ```
 

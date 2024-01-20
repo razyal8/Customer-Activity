@@ -1,5 +1,3 @@
-# Customer-Activity
-
 Big data - HW1
 
 # Customer Activity Analytics Project
@@ -42,14 +40,16 @@ This will create the keyspace, tables, ingest data, perform queries, and analyze
 ### Project Structure
 
 main.py: Main script to run the entire project.
+
 create_keyspace.py: Create keyspace and connect to Cassandra.
+
 create_table.py: Create tables in Cassandra.
+
 ingest_data.py: Ingest data into Cassandra tables from CSV files.
+
 queries.py: Contains various Cassandra queries.
+
 data_analysis.py: Perform data analysis and visualization.
+
 data/: Folder containing CSV and CQL files.
 
-### Additional Notes
-
-Modify Cassandra connection details and keyspace in create_keyspace.py.
-CSV files in the data/ folder contain sample data for ingestion.

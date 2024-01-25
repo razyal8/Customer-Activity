@@ -1,4 +1,3 @@
-
 def create_table(session):
     print('\n starting creating tables ...')
     print("\n user_activity_table")
@@ -12,7 +11,7 @@ def create_table(session):
             lesson_type TEXT,
             day_completion_percentage FLOAT,
             overall_completion_percentage FLOAT,
-            PRIMARY KEY ((lesson_type), user_id , day_completion_percentage)
+            PRIMARY KEY ((lesson_type), user_id, day_completion_percentage)
         )
     """
 
@@ -27,20 +26,9 @@ def create_table(session):
             batch_start_datetime TIMESTAMP,
             referral_source TEXT,
             highest_qualification TEXT,
-            PRIMARY KEY ((current_city),user_id)
+            PRIMARY KEY ((current_city),gender,user_id)
         )
     """
-
-    print("\n user_lessons TABLE")
-    query4 = f'DROP TABLE IF EXISTS customer_activity.user_lessons;'
-    session.execute(query4)
-    create_user_lessons = '''
-        CREATE TABLE IF NOT EXISTS user_lessons (
-            user_id INT,
-            lesson_id INT,
-            PRIMARY KEY ((user_id), lesson_id)
-        )
-    '''
 
     print("\n learning_resources TABLE")
     query5 = f'DROP TABLE IF EXISTS customer_activity.learning_resources;'
@@ -105,7 +93,6 @@ def create_table(session):
     session.execute(create_feedback)
     session.execute(create_discussions)
     session.execute(user_activity_table)
-    session.execute(create_user_lessons)
     session.execute(create_learning_resources)
     session.execute(create_discussion_comments)
 

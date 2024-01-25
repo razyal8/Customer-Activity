@@ -5,7 +5,7 @@ def cql_queries(session):
     min_performing_users_lessons_type = """
         SELECT user_id, lesson_type, MIN(overall_completion_percentage) AS completion_percentage
         FROM user_activity
-        GROUP BY lesson_type 
+        GROUP BY lesson_type
     """
     result_min_performing = session.execute(min_performing_users_lessons_type)
     for row in result_min_performing:

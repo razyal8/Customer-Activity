@@ -24,20 +24,44 @@ def Users_Each_City(session):
 
 
 def lesson_type_percentage_taken(session):
-    print('\n Global Lesson Type Percentage Taken')
+    print('\n Global Lesson Type Percentage')
     query_lesson_type_count = '''
-        SELECT lesson_type, COUNT(lesson_id) AS lesson_count
-        FROM user_activity
-        GROUP BY lesson_type
+        SELECT track_id, lesson_type, COUNT(lesson_id) AS lesson_count 
+        FROM learning_resources
+        WHERE lesson_type = 'EXAM'
+        ALLOW FILTERING
     '''
 
     result_lesson_type_count = session.execute(query_lesson_type_count)
-    df_lesson_type_count = pd.DataFrame(result_lesson_type_count, columns=['lesson_type', 'lesson_count'])
+    df_lesson_type_count = pd.DataFrame([[result_lesson_type_count[0][1],result_lesson_type_count[0][2]]],columns=['lesson_type','lesson_count'])
+    query_lesson_type_count = '''
+           SELECT track_id, lesson_type, COUNT(lesson_id) AS lesson_count 
+           FROM learning_resources
+           WHERE lesson_type = 'SESSION'
+           ALLOW FILTERING
+       '''
+
+    result_lesson_type_count = session.execute(query_lesson_type_count)
+    df_lesson_type_count_session = pd.DataFrame([[result_lesson_type_count[0][1],result_lesson_type_count[0][2]]],columns=['lesson_type','lesson_count'])
+    df_lesson_type_count = pd.concat([df_lesson_type_count,df_lesson_type_count_session])
+
+    query_lesson_type_count = '''
+               SELECT track_id, lesson_type, COUNT(lesson_id) AS lesson_count 
+               FROM learning_resources
+               WHERE lesson_type = 'PRACTICE'
+               ALLOW FILTERING
+           '''
+
+    result_lesson_type_count = session.execute(query_lesson_type_count)
+    df_lesson_type_count_practice = pd.DataFrame([[result_lesson_type_count[0][1], result_lesson_type_count[0][2]]],
+                                                columns=['lesson_type', 'lesson_count'])
+    df_lesson_type_count = pd.concat([df_lesson_type_count, df_lesson_type_count_practice])
 
     plt.pie(df_lesson_type_count['lesson_count'], labels=df_lesson_type_count['lesson_type'], autopct='%1.1f%%', startangle=90)
-    plt.title('Enrollment Percentage of Each Lesson Type')
+    plt.title('Global Lesson Type Percentage')
     plt.axis('equal') 
     plt.show()  
+
 
 def avg_completion_percentage(session):
     print('\n Average Completion Percentage of Each Lesson Type')
@@ -96,28 +120,25 @@ def calculate_total_lesson_duration(session):
     print(total_lesson_duration)
 
 def find_most_popular_course_type(session):
-    print('\nThe most popular course type')   
+    print('\nThe most enrolled student')
     query = """
-        SELECT lesson_type, COUNT(user_id) AS enrolled_users_count
-        FROM user_activity
-        GROUP BY lesson_type
-    """
+           SELECT user_id, COUNT(lesson_id) AS sum_lesson
+           FROM user_activity
+           GROUP BY lesson_type , user_id 
+       """
 
     result = session.execute(query)
 
     max_enrolled_users = 0
-    most_popular_course_type = None
+    most_enrolled_student = None
 
     for row in result:
-        enrolled_users_count = row.enrolled_users_count
+        enrolled_users_count = row.sum_lesson
         if enrolled_users_count > max_enrolled_users:
             max_enrolled_users = enrolled_users_count
-            most_popular_course_type = row.lesson_type
+            most_enrolled_student = row.user_id
 
-    if most_popular_course_type is not None:
-        print(f"The most popular course type is '{most_popular_course_type}' with {max_enrolled_users} enrolled users.")
-    else:
-        print("No data found.")
+    print(f"The most enrolled student is '{most_enrolled_student}' with {max_enrolled_users} enrolled courses.")
 
 
 def count_discussions_by_mentor(session):
@@ -155,6 +176,25 @@ def count_discussions_by_mentor(session):
     for row in result_list:
         print(f"Mentor {row.user_id} was involved in {row.discussions_count} discussions.")
 
+def average_completion_percentage(session):
+    print('\nAverage Completion Percentage')
+    query = """
+            SELECT user_id, AVG(overall_completion_percentage) AS completion_percentage
+            FROM user_activity
+            GROUP BY lesson_type, user_id 
+        """
+
+    result = session.execute(query)
+
+    average = 0
+    total_num_of_student = 0
+
+    for row in result:
+        average += row.completion_percentage
+        total_num_of_student += 1
+
+    print(f"The completion average is '{average/total_num_of_student}'.")
+
 def data_analysis(session): 
     Users_Each_City(session)
     lesson_type_percentage_taken(session)
@@ -163,5 +203,6 @@ def data_analysis(session):
     calculate_total_lesson_duration(session)
     find_most_popular_course_type(session)
     count_discussions_by_mentor(session)
+    average_completion_percentage(session)
 
     

@@ -62,25 +62,6 @@ def lesson_type_percentage_taken(session):
     plt.axis('equal') 
     plt.show()  
 
-
-def avg_completion_percentage(session):
-    print('\n Average Completion Percentage of Each Lesson Type')
-    avg_performing_lesson_query = """
-    SELECT lesson_type, AVG(overall_completion_percentage) AS completion_percentage
-    FROM user_activity
-    GROUP BY lesson_type 
-    """
-
-    result_avg_performing = session.execute(avg_performing_lesson_query)
-    df_avg_performing = pd.DataFrame(result_avg_performing, columns=['lesson_type', 'completion_percentage'])
-
-    for _, (lesson_type, completion_percentage) in df_avg_performing.iterrows():
-        plt.figure()  
-        plt.pie([completion_percentage, 100 - completion_percentage], labels=['Completed', 'Not Completed'], autopct='%1.1f%%', startangle=90)
-        plt.title(f'Completion Percentage for {lesson_type}')
-        plt.axis('equal') 
-        plt.show()  
-
 def get_sorted_user_count_by_city(session):
     print('\n Sort the list of number of users from each city')
     query = """
@@ -124,7 +105,7 @@ def find_most_popular_course_type(session):
     query = """
            SELECT user_id, COUNT(lesson_id) AS sum_lesson
            FROM user_activity
-           GROUP BY lesson_type , user_id 
+           GROUP BY user_id 
        """
 
     result = session.execute(query)
@@ -181,7 +162,7 @@ def average_completion_percentage(session):
     query = """
             SELECT user_id, AVG(overall_completion_percentage) AS completion_percentage
             FROM user_activity
-            GROUP BY lesson_type, user_id 
+            GROUP BY user_id 
         """
 
     result = session.execute(query)
@@ -198,7 +179,6 @@ def average_completion_percentage(session):
 def data_analysis(session): 
     Users_Each_City(session)
     lesson_type_percentage_taken(session)
-    avg_completion_percentage(session)
     get_sorted_user_count_by_city(session)
     calculate_total_lesson_duration(session)
     find_most_popular_course_type(session)

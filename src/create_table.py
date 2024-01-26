@@ -11,7 +11,7 @@ def create_table(session):
             lesson_type TEXT,
             day_completion_percentage FLOAT,
             overall_completion_percentage FLOAT,
-            PRIMARY KEY ((lesson_type), user_id, day_completion_percentage)
+            PRIMARY KEY ((user_id), lesson_type, day_completion_percentage)
         )
     """
 

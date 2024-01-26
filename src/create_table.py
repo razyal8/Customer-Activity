@@ -1,8 +1,7 @@
 def create_table(session):
     print('\n starting creating tables ...')
+
     print("\n user_activity_table")
-    query2 = f'DROP TABLE IF EXISTS customer_activity.user_activity;'
-    session.execute(query2)
     user_activity_table = """
         CREATE TABLE IF NOT EXISTS user_activity (
             activity_datetime TIMESTAMP,
@@ -16,8 +15,6 @@ def create_table(session):
     """
 
     print("\n users table")
-    query3 = f'DROP TABLE IF EXISTS customer_activity.users;'
-    session.execute(query3)
     users_table = """
         CREATE TABLE IF NOT EXISTS users (
             user_id INT,
@@ -31,8 +28,6 @@ def create_table(session):
     """
 
     print("\n learning_resources TABLE")
-    query5 = f'DROP TABLE IF EXISTS customer_activity.learning_resources;'
-    session.execute(query5)
     create_learning_resources = '''
         CREATE TABLE IF NOT EXISTS learning_resources (
             track_id INT,
@@ -49,8 +44,6 @@ def create_table(session):
     '''
 
     print("\n feedback TABLE")
-    query6 = f'DROP TABLE IF EXISTS customer_activity.feedback;'
-    session.execute(query6)  
     create_feedback = '''
         CREATE TABLE IF NOT EXISTS feedback (
             creation_datetime TIMESTAMP,
@@ -63,8 +56,6 @@ def create_table(session):
     '''
 
     print("\n discussions TABLE")
-    query7 = f'DROP TABLE IF EXISTS customer_activity.discussions;'
-    session.execute(query7)  
     create_discussions = '''
         CREATE TABLE IF NOT EXISTS discussions (
             creation_datetime TIMESTAMP,
@@ -76,8 +67,6 @@ def create_table(session):
     '''
 
     print("\n discussion_comments TABLE")
-    query8 = f'DROP TABLE IF EXISTS customer_activity.discussion_comments;'
-    session.execute(query8)  
     create_discussion_comments = '''
         CREATE TABLE IF NOT EXISTS discussion_comments (
             discussion_id INT,

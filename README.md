@@ -53,7 +53,4 @@ This will create the keyspace, tables, ingest data, perform queries, and analyze
 └── CSV files                 # containing file for ingeset 
 │
 /CQL queries               # file containing CQL queries
-│
-/tables.py                 # Python file containing table definitions
-
 
